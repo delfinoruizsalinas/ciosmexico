@@ -85,9 +85,46 @@
           </div>
         </div>
       </section>      
-      <?php 
-        require_once 'api_block_partners.php';
-      ?>
+      <section class="section section-xl bg-gray-700 bg-dots-light">
+        <div class="container">
+          <div class="row row-50">
+            <div class="col-sm-6 col-lg-3">
+              <article class="counter-classic">
+                <div class="counter-classic-main">
+                  <p>+</p><div class="counter">250</div>
+                </div>
+                <p class="counter-classic-title">Miembros activos conforman nuestra asociación</p>
+              </article>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+              <article class="counter-classic">
+                <div class="counter-classic-main">
+                  <div class="counter">87</div><p>%</p>
+                </div>
+                <p class="counter-classic-title">De nuestros asociados pertenecen a las principales industrias privadas</p>
+              </article>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+              <article class="counter-classic">
+                <div class="counter-classic-main">
+                  <div class="counter">13</div><p>%</p>
+                </div>
+                <p class="counter-classic-title">De nuestros asociados pertenecen al sector gobierno</p>
+              </article>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+              <article class="counter-classic">
+                <div class="counter-classic-main">
+                <!--<a class="button button-secondary button-sm" href="#"></a>-->
+                </div>
+                <p class="counter-classic-title">
+                Somos una asociación que busca aumentar la participación de CxO (es decir, CIO | CTO | CDO) de diferentes industrias para delinear una agenda digital en temas de interés común como tendencias en tecnologías, herramientas y metodologías de vanguardia; 
+                </p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- Page Footer-->
       <?php include 'footer.php' ?>
     </div>
