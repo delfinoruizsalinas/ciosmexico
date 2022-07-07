@@ -19,6 +19,8 @@
         $json_partners = json_decode(curl_get_contents($url));
         
         // In the case of this input, do key and array lookups to get the values
+        print_r($json_partners);
+        
         foreach ($json_partners->data as $key => $value) {
             $url ="";
             $link = "";
