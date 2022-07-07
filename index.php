@@ -156,7 +156,7 @@ Escríbenos y en breve nos pondremos en contacto contigo.</p>
         </div>
       </section>
       
-      <section class="section section-lg bg-default text-center">
+<section class="section section-lg bg-default text-center">
     <div class="container">
         <div class="wow-outer">
         <div class="wow slideInDown" style="visibility: visible; animation-name: slideInDown;">
