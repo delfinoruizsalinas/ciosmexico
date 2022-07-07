@@ -25,7 +25,7 @@
       <!-- Page Header-->
       <?php include 'header.php' ?>
       <!-- Swiper-->
-      <section class="parallax-container" data-parallax-img="images/cios/conocenos01.jpg">
+      <section class="parallax-container" data-parallax-img="images/portadaConocenos.jpeg">
         <div class="parallax-content breadcrumbs-custom context-dark"> 
           <div class="container">
             <div class="row justify-content-center">
@@ -73,7 +73,7 @@
       <section class="section section-lg bg-default">
         <div class="container">
           <div class="row row-50">
-            <div class="col-lg-6 pr-xl-5"><img src="images/about-us-1-518x430.jpg" alt="" width="518" height="430"/>
+            <div class="col-lg-6 pr-xl-5"><img src="images/image-2-conocenos.jpeg" alt="" width="518" height="430"/>
             </div>
             <div class="col-lg-6">
               <div class="text-with-divider">
