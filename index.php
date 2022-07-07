@@ -99,7 +99,7 @@ Escríbenos y en breve nos pondremos en contacto contigo.</p>
             <div class="col-sm-6 col-lg-3">
               <article class="counter-classic">
                 <div class="counter-classic-main">
-                  <div class="counter">250</div>
+                  <p>+</p><div class="counter">250</div>
                 </div>
                 <p class="counter-classic-title">Miembros activos conforman nuestra asociación</p>
               </article>
