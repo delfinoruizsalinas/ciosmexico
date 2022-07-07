@@ -34,7 +34,7 @@
                 <div class="bunner-content-modern text-center">
                   <p class="text-accent-2">CIO's</p>
                   <div class="box-location">
-                    <h4>Mexicanos & Latam (Oficial)</h4>
+                    <h4>Mexicanos & Latam</h4>
                     <h5 class="text-secondary">1 de julio del 2022</h5>
                   </div>
                 </div>
