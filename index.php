@@ -44,9 +44,75 @@
         </div>
       </section>
 
-      <?php 
-        include 'api_block_events.php';
-      ?>
+      <section class="section section-lg bg-gray-1">
+<div class="container">
+<div class="wow-outer">
+  <div class="wow slideInDown text-center" style="visibility: hidden; animation-name: none;">
+      <h3 class="title-decorate title-decorate-center">Eventos CIO’s Mexicanos &amp; Latam</h3>
+    </div>
+  </div>
+  <div class="row row-50">
+    <div class="col-md-6 col-lg-4"><div class="post-modern"><div class="post-modern-figure"><a href="https://www.youtube.com/watch?v=JvsSCbHF1Ac" target="_blank"><img src="http://178.62.220.4:1337/uploads/thumbnail_count_3125587_640_ff3ee16869.jpg" alt="" width="370" height="255"></a><a class="badge-primary badge" href="#">CIOsVlog</a></div><div class="post-modern-caption"><p class="post-modern-date">2022-06-07:19:00:00.000</p><h4 class="post-modern-title"><a href="https://www.youtube.com/watch?v=JvsSCbHF1Ac" target="_blank">Cumplimiento de las obligaciones fiscales en la empresa.</a></h4></div></div></div><div class="col-md-6 col-lg-4"><div class="post-modern"><div class="post-modern-figure"><a href="https://www.youtube.com/watch?v=HCjMH9FweKw" target="_blank"><img src="http://178.62.220.4:1337/uploads/thumbnail_stock_1863880_640_ea0f63e947.jpg" alt="" width="370" height="255"></a><a class="badge-primary badge" href="#">CIOsVlog</a></div><div class="post-modern-caption"><p class="post-modern-date">2022-05-17:19:00:00.000</p><h4 class="post-modern-title"><a href="https://www.youtube.com/watch?v=HCjMH9FweKw" target="_blank">Perspectivas económicas del entorno global y local para este 2022.</a></h4></div></div></div><div class="col-md-6 col-lg-4"><div class="post-modern"><div class="post-modern-figure"><a href="https://www.youtube.com/watch?v=Yvt2UR-6yUM" target="_blank"><img src="http://178.62.220.4:1337/uploads/thumbnail_hacker_3655668_640_ba24f2d02b.jpg" alt="" width="370" height="255"></a><a class="badge-primary badge" href="#">CIOsVlog</a></div><div class="post-modern-caption"><p class="post-modern-date">2022-06-06:19:00:00.000</p><h4 class="post-modern-title"><a href="https://www.youtube.com/watch?v=Yvt2UR-6yUM" target="_blank">Ciberdefensa</a></h4></div></div></div><div class="col-md-6 col-lg-4"><div class="post-modern"><div class="post-modern-figure"><a href="https://youtu.be/5m_RktPcULU" target="_blank"><img src="http://178.62.220.4:1337/uploads/thumbnail_ransomware_2320941_640_abb69d19e3.jpg" alt="" width="370" height="255"></a><a class="badge-primary badge" href="#">CIOsVlog</a></div><div class="post-modern-caption"><p class="post-modern-date">2022-06-21:19:00:00.000</p><h4 class="post-modern-title"><a href="https://youtu.be/5m_RktPcULU" target="_blank">Anatomía de un Ciberataque</a></h4></div></div></div><div class="col-md-6 col-lg-4"><div class="post-modern"><div class="post-modern-figure"><a href="https://youtu.be/bTwJx22GAXg" target="_blank"><img src="http://178.62.220.4:1337/uploads/thumbnail_electrical_2476782_640_f38b41b2e2.jpg" alt="" width="370" height="255"></a><a class="badge-primary badge" href="#">CIOsVlog</a></div><div class="post-modern-caption"><p class="post-modern-date">2022-06-14:12:00:00.000</p><h4 class="post-modern-title"><a href="https://youtu.be/bTwJx22GAXg" target="_blank">Innovación centrada en datos: desde la sala de máquinas hasta la sala de exposición</a></h4></div></div></div><div class="col-md-6 col-lg-4"><div class="post-modern"><div class="post-modern-figure"><a href="https://youtu.be/JvsSCbHF1Ac" target="_blank"><img src="http://178.62.220.4:1337/uploads/thumbnail_laptop_1478822_640_8033887796.jpg" alt="" width="370" height="255"></a><a class="badge-primary badge" href="#">CIOsVlog</a></div><div class="post-modern-caption"><p class="post-modern-date">2022-06-07:19:00:00.000</p><h4 class="post-modern-title"><a href="https://youtu.be/JvsSCbHF1Ac" target="_blank">Las TI´s y el cumplimiento de las obligaciones fiscales de la empresa</a></h4></div></div></div>
+<!--
+    <div class="col-md-6 col-lg-4">
+      <div class="post-modern post-modern-reverse">
+        <div class="post-modern-figure"><a href="https://www.youtube.com/watch?v=9LTCpl_z-UM" target="_blank"><img src="images/cios/event4.png" alt="" width="370" height="255"/></a><a class="badge-secondary badge" href="#">Entre Amigos</a></div>
+        <div class="post-modern-caption">
+          <p class="post-modern-date">5/5/2022 20:00</p>
+          <h4 class="post-modern-title"><a href="https://www.youtube.com/watch?v=9LTCpl_z-UM" target="_blank">Estreno de nuestro primer programa "Entre Amigos"</a></h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6 col-lg-4">
+      <div class="post-modern">
+        <div class="post-modern-figure"><a href="https://www.youtube.com/watch?v=JvsSCbHF1Ac" target="_blank"><img src="images/cios/event1.jpeg" alt="" width="370" height="255"/></a><a class="badge-primary badge" href="#">CIOsVlog</a></div>
+        <div class="post-modern-caption">
+          <p class="post-modern-date">7/6/2022 19:00</p>
+          <h4 class="post-modern-title"><a href="https://www.youtube.com/watch?v=JvsSCbHF1Ac" target="_blank">Cumplimiento de las obligaciones fiscales en la empresa</a></h4>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-4">
+      <div class="post-modern post-modern-reverse">
+        <div class="post-modern-figure" target="_blank"><a href="#"><img src="images/cios/event6.jpeg" alt="" width="370" height="255"/></a><a class="badge" href="#">Noticias del día</a></div>
+        <div class="post-modern-caption">
+          <p class="post-modern-date"></p>
+          <h4 class="post-modern-title" target="_blank"><a href="#">El 30 de junio de 1970, IBM anunció la IBM System/370.</a></h4>
+        </div>
+      </div>
+    </div>               
+    <div class="col-md-6 col-lg-4">
+      <div class="post-modern">
+        <div class="post-modern-figure"><a href="https://www.youtube.com/watch?v=Yvt2UR-6yUM" target="_blank"><img src="images/cios/event2.png" alt="" width="370" height="255"/></a><a class="badge-primary badge" href="#">CIOsVlog</a></div>
+        <div class="post-modern-caption">
+          <p class="post-modern-date">6/6/2022 19:00</p>
+          <h4 class="post-modern-title"><a href="https://www.youtube.com/watch?v=Yvt2UR-6yUM" target="_blank">Ciberdefensa de la mano de nuestro partner Netjer Networks México</a></h4>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-4">
+      <div class="post-modern post-modern-reverse">
+        <div class="post-modern-figure" target="_blank"><a href="#"><img src="images/cios/event5.jpeg" alt="" width="370" height="255"/></a><a class="badge" href="#">Noticias del día</a></div>
+        <div class="post-modern-caption">
+          <p class="post-modern-date"></p>
+          <h4 class="post-modern-title" target="_blank"><a href="#">EL 8 de junio de 1995 fue el lanzamiento de PHP</a></h4>
+        </div>
+      </div>
+    </div>            
+    <div class="col-md-6 col-lg-4">
+      <div class="post-modern">
+        <div class="post-modern-figure"><a href="https://www.youtube.com/watch?v=HCjMH9FweKw" target="_blank"><img src="images/cios/event3.jpeg" alt="" width="370" height="255"/></a><a class="badge-primary badge" href="#">CIOsVlog</a></div>
+        <div class="post-modern-caption">
+          <p class="post-modern-date">7/5/2022 19:00</p>
+          <h4 class="post-modern-title"><a href="https://www.youtube.com/watch?v=HCjMH9FweKw" target="_blank">Perspectivas económicas del entorno global y local para este 2022.</a></h4>
+        </div>
+      </div>
+    </div>            
+-->
+  </div>
+</div>
+</section>
       
       <section class="section section-xl bg-gray-700 bg-decorate">
         <div class="container">
@@ -90,9 +156,24 @@ Escríbenos y en breve nos pondremos en contacto contigo.</p>
         </div>
       </section>
       
-      <?php 
-        require_once './api_block_partners.php';
-      ?>
+      <section class="section section-lg bg-default text-center">
+    <div class="container">
+        <div class="wow-outer">
+        <div class="wow slideInDown" style="visibility: visible; animation-name: slideInDown;">
+            <h3 class="title-decorate title-decorate-center">Algunos de Nuestros Partners</h3>
+        </div>
+        </div>
+        <div class="row row-30">
+        <div class="col-12 wow-outer">
+            <div class="wow slideInDown" style="visibility: visible; animation-name: slideInDown;">
+            <h5 class="gradient-title text-gradient-2"></h5>
+            </div>
+        </div>
+        <div class="col-sm-6 col-lg-3"><a class="box-sponsor wow fadeInUp" target="_blank" href="#" data-wow-delay="1.0s" style="visibility: visible; animation-delay: 1s; animation-name: fadeInUp;"><img src="http://178.62.220.4:1337/uploads/thumbnail_Rackspace_Technology_Logo_RGB_BLK_0d9007eed4.png" alt="" width="120" height="119"></a></div><div class="col-sm-6 col-lg-3"><a class="box-sponsor wow fadeInUp" target="_blank" href="#" data-wow-delay="1.1s" style="visibility: visible; animation-delay: 1.1s; animation-name: fadeInUp;"><img src="http://178.62.220.4:1337/uploads/thumbnail_Netjer_Logo_Grande_transparente_3_1024x768_27a0932738.png" alt="" width="120" height="119"></a></div><div class="col-sm-6 col-lg-3"><a class="box-sponsor wow fadeInUp" target="_blank" href="#" data-wow-delay="1.2s" style="visibility: visible; animation-delay: 1.2s; animation-name: fadeInUp;"><img src="http://178.62.220.4:1337/uploads/syniti_logo_2281169707.png" alt="" width="120" height="119"></a></div><div class="col-sm-6 col-lg-3"><a class="box-sponsor wow fadeInUp" target="_blank" href="#" data-wow-delay="1.3s" style="visibility: visible; animation-delay: 1.3s; animation-name: fadeInUp;"><img src="http://178.62.220.4:1337/uploads/thumbnail_ernst_young_logo_0_1_10078e41e6.png" alt="" width="120" height="119"></a></div><div class="col-sm-6 col-lg-3"><a class="box-sponsor wow fadeInUp" target="_blank" href="#" data-wow-delay="1.4s" style="visibility: visible; animation-delay: 1.4s; animation-name: fadeInUp;"><img src="http://178.62.220.4:1337/uploads/thumbnail_NPD_Tinta_verde_sin_fondo_1024_88a41061ac.png" alt="" width="120" height="119"></a></div><div class="col-sm-6 col-lg-3"><a class="box-sponsor wow fadeInUp" target="_blank" href="#" data-wow-delay="1.5s" style="visibility: visible; animation-delay: 1.5s; animation-name: fadeInUp;"><img src="http://178.62.220.4:1337/uploads/logo_aubay_RGB_150x150_a7693d3c13.jpg" alt="" width="120" height="119"></a></div><div class="col-sm-6 col-lg-3"><a class="box-sponsor wow fadeInUp" target="_blank" href="https://www.jcgreestudios.com/" data-wow-delay="1.6s" style="visibility: visible; animation-delay: 1.6s; animation-name: fadeInUp;"><img src="http://178.62.220.4:1337/uploads/JC_logo_7083b8da95.jpeg" alt="" width="120" height="119"></a></div><div class="col-sm-6 col-lg-3"><a class="box-sponsor wow fadeInUp" target="_blank" href="#" data-wow-delay="1.7s" style="visibility: visible; animation-delay: 1.7s; animation-name: fadeInUp;"><img src="http://178.62.220.4:1337/uploads/thumbnail_logo_Zscalerpng_e949f25e0e.png" alt="" width="120" height="119"></a></div><div class="col-sm-6 col-lg-3"><a class="box-sponsor wow fadeInUp" target="_blank" href="#" data-wow-delay="1.8s" style="visibility: visible; animation-delay: 1.8s; animation-name: fadeInUp;"><img src="http://178.62.220.4:1337/uploads/thumbnail_logo_Equinix_52f036b3a7.png" alt="" width="120" height="119"></a></div><div class="col-sm-6 col-lg-3"><a class="box-sponsor wow fadeInUp" target="_blank" href="#" data-wow-delay="1.9s" style="visibility: visible; animation-delay: 1.9s; animation-name: fadeInUp;"><img src="http://178.62.220.4:1337/uploads/120px_Mongo_DB_Logo_svg_1d51dfc0d9.png" alt="" width="120" height="119"></a></div>
+    </div>
+    </div>
+</section>
+
       <section class="section section-xl bg-gray-700 bg-dots-light">
         <div class="container">
           <div class="row row-50">
