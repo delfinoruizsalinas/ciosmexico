@@ -91,7 +91,7 @@ Escríbenos y en breve nos pondremos en contacto contigo.</p>
       </section>
       
       <?php 
-        include 'api_block_partners.php';
+        require_once './api_block_partners.php';
       ?>
       <section class="section section-xl bg-gray-700 bg-dots-light">
         <div class="container">
