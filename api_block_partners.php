@@ -1,5 +1,5 @@
 <?php
-    require_once('apis_list.php');
+    require_once './apis_list.php';
 ?>
 <section class="section section-lg bg-default text-center">
     <div class="container">
@@ -20,7 +20,7 @@
         
         // In the case of this input, do key and array lookups to get the values
         print_r($json_partners);
-        
+
         foreach ($json_partners->data as $key => $value) {
             $url ="";
             $link = "";
