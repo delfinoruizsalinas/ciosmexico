@@ -99,7 +99,7 @@ Escríbenos y en breve nos pondremos en contacto contigo.</p>
             <div class="col-sm-6 col-lg-3">
               <article class="counter-classic">
                 <div class="counter-classic-main">
-                  <div class="counter">190</div>
+                  <div class="counter">250</div>
                 </div>
                 <p class="counter-classic-title">Miembros activos conforman nuestra asociación</p>
               </article>
@@ -107,7 +107,7 @@ Escríbenos y en breve nos pondremos en contacto contigo.</p>
             <div class="col-sm-6 col-lg-3">
               <article class="counter-classic">
                 <div class="counter-classic-main">
-                  <div class="counter">81</div>
+                  <div class="counter">87</div><p>%</p>
                 </div>
                 <p class="counter-classic-title">De nuestros asociados pertenecen a las principales industrias privadas</p>
               </article>
@@ -115,7 +115,7 @@ Escríbenos y en breve nos pondremos en contacto contigo.</p>
             <div class="col-sm-6 col-lg-3">
               <article class="counter-classic">
                 <div class="counter-classic-main">
-                  <div class="counter">19</div>
+                  <div class="counter">13</div><p>%</p>
                 </div>
                 <p class="counter-classic-title">De nuestros asociados pertenecen al sector gobierno</p>
               </article>
