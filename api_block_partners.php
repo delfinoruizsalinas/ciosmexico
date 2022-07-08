@@ -15,7 +15,7 @@
 
             
             $curl = curl_init(); //Initializes curl
-            curl_setopt($curl, CURLOPT_URL, 'http://localhost:1337/api/partners?populate=imagen');
+            curl_setopt($curl, CURLOPT_URL, 'http://178.62.220.4:1337/api/partners?populate=imagen');
             curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
             curl_setopt($curl, CURLOPT_HTTPHEADER, [
                 'Content-Type: application/json'
@@ -25,9 +25,9 @@
             curl_close($curl);
 
             $obj = json_decode($res);
-            print_r($obj);
+            print_r($res);
 
-            phpinfo();
+            
             foreach ($obj->data as $key => $value) {
 
                 $url ="";
@@ -42,9 +42,9 @@
                 foreach($value->attributes->imagen as $item){
 
                         if(empty($item->attributes->formats->thumbnail)){
-                            $url = 'http://localhost:1337'.$item->attributes->url;
+                            $url = 'http://178.62.220.4:1337'.$item->attributes->url;
                         }else{
-                            $url = 'http://localhost:1337'.$item->attributes->formats->thumbnail->url;                               
+                            $url = 'http://178.62.220.4:1337'.$item->attributes->formats->thumbnail->url;                               
                         }
                 }       
                 echo '<div class="col-sm-6 col-lg-3"><a class="box-sponsor wow fadeInUp" target="_blank" href="'.$link.'" data-wow-delay="1.'.$i.'s"><img src="'.$url.'" alt="" width="120" height="119"/></a></div>';
