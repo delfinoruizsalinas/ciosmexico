@@ -26,6 +26,8 @@
 
             $obj = json_decode($res);
             print_r($res);
+            echo  $obj;
+            echo $res;
 
 /*            
             foreach ($obj->data as $key => $value) {
