@@ -26,7 +26,8 @@
 
             $obj = json_decode($res);
             print_r($obj);
-            
+
+            phpinfo();
             foreach ($obj->data as $key => $value) {
 
                 $url ="";
