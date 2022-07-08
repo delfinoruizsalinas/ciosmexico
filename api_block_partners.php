@@ -25,7 +25,8 @@
             curl_close($curl);
 
             $obj = json_decode($res);
-
+            print_r($obj);
+            
             foreach ($obj->data as $key => $value) {
 
                 $url ="";
