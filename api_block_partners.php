@@ -13,26 +13,18 @@
         </div>
         <?php
 
-
-            $url = "http://178.62.220.4:1337/api/partners?populate=imagen";
-
-            $curl = curl_init($url);
-            curl_setopt($curl, CURLOPT_URL, $url);
+            
+            $curl = curl_init(); //Initializes curl
+            curl_setopt($curl, CURLOPT_URL, 'http://178.62.220.4:1337/api/partners?populate=imagen');
             curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+            curl_setopt($curl, CURLOPT_HTTPHEADER, [
+                'Content-Type: application/json'
+            ]); // Sets header information for authenticated requests
 
-            $headers = array(
-            "Accept: application/json",
-            );
-            curl_setopt($curl, CURLOPT_HTTPHEADER, $headers);
-            //for debug only!
-            curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, false);
-            curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
-
-            $resp = curl_exec($curl);
+            $res = curl_exec($curl);
             curl_close($curl);
 
-            $obj = json_decode($resp);
-            
+            $obj = json_decode($res);
 
             foreach ($obj->data as $key => $value) {
 
@@ -55,7 +47,7 @@
                 }       
                 echo '<div class="col-sm-6 col-lg-3"><a class="box-sponsor wow fadeInUp" target="_blank" href="'.$link.'" data-wow-delay="1.'.$i.'s"><img src="'.$url.'" alt="" width="120" height="119"/></a></div>';
             }
-               
+              
         ?>
 
     </div>
