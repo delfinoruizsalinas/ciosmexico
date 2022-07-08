@@ -26,9 +26,7 @@
 
             $obj = json_decode($res);
             print_r($res);
-            echo  $obj;
-            echo $res;
-            echo "http://178.62.220.4:1337/api/partners?populate=imagen";
+
 
 /*            
             foreach ($obj->data as $key => $value) {
