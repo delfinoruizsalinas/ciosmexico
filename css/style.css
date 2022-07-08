@@ -1852,8 +1852,8 @@ html:not(.desktop) .gallery-item-classic .gallery-item-classic-caption, .gallery
 @media (min-width: 992px) {
 	.bunner-content-modern .box-location {
 		position: absolute;
-		top: 5%;
-		right: 27%;
+		top: 92%;
+		right: 35%;
 	}
 }
 
