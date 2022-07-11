@@ -12,22 +12,23 @@
             </div>
         </div>
         <?php
-            $url = "http://178.62.220.4:1337/api/partners?populate=imagen";
 
-            $curl = curl_init($url);
-            curl_setopt($curl, CURLOPT_URL, $url);
-            curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
-            
-            //for debug only!
-            curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, false);
-            curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
-            
-
-            $resp = curl_exec($curl);
-            curl_close($curl);
-            var_dump($resp);
-
-            
+            function curl_download($Url){
+  
+                if (!function_exists('curl_init')){
+                    die('cURL is not installed. Install and try again.');
+                }
+              
+                $ch = curl_init();
+                curl_setopt($ch, CURLOPT_URL, $Url);
+                curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+                $output = curl_exec($ch);
+                curl_close($ch);
+              
+                return $output;
+            }
+             
+            print curl_download('http://178.62.220.4:1337/api/partners?populate=imagen');
             
            /* $curl = curl_init(); //Initializes curl
             curl_setopt($curl, CURLOPT_URL, 'http://178.62.220.4:1337/api/partners?populate=imagen');
