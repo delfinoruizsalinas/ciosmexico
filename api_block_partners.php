@@ -16,7 +16,7 @@
    
         function getRestaurants(){
             $curl = curl_init(); //Initializes curl
-            curl_setopt($curl, CURLOPT_URL, 'http://localhost:1337/api/partners?populate=imagen');
+            curl_setopt($curl, CURLOPT_URL, 'http://178.62.220.4:1337/api/partners?populate=imagen');
             curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
             curl_setopt($curl, CURLOPT_HTTPHEADER, [
                 'Content-Type: application/json'
