@@ -156,9 +156,23 @@ Escríbenos y en breve nos pondremos en contacto contigo.</p>
         </div>
       </section>   
         <!-- api block partners-->   
-      <?php 
-        include 'api_block_partners.php';
-      ?>
+      <section class="section section-lg bg-default text-center">
+          <div class="container">
+              <div class="wow-outer">
+              <div class="wow slideInDown">
+                  <h3 class="title-decorate title-decorate-center">Algunos de Nuestros Partners</h3>
+              </div>
+              </div>
+              <div class="row row-30">
+              <div class="col-12 wow-outer">
+                  <div class="wow slideInDown">
+                  <h5 class="gradient-title text-gradient-2"></h5>
+                  </div>
+              </div>
+              <h1>aki va el bloque</h1>
+          </div>
+          </div>
+      </section>
       <section class="section section-xl bg-gray-700 bg-dots-light">
         <div class="container">
           <div class="row row-50">
@@ -206,5 +220,15 @@ Escríbenos y en breve nos pondremos en contacto contigo.</p>
     <div class="snackbars" id="form-output-global"></div>
     <script src="js/core.min.js"></script>
     <script src="js/script.js"></script>
+    <script>
+      $.ajax({
+        type: 'GET',
+        url: 'http://178.62.220.4:1337/api/partners?populate=imagen',
+        dataType: 'json',
+        success: function(data) {
+          console.log(data)
+        }
+      });
+    </script>
   </body>
 </html>
