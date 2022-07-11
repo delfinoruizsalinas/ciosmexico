@@ -154,7 +154,8 @@ Escríbenos y en breve nos pondremos en contacto contigo.</p>
             </div>
           </div>
         </div>
-      </section>      
+      </section>   
+        <!-- api block partners-->   
       <?php 
         include 'api_block_partners.php';
       ?>
