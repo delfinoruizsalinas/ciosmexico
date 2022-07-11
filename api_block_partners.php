@@ -22,9 +22,7 @@
             curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, false);
             curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
             
-            curl_setopt($curl, CURLOPT_CONNECTTIMEOUT, 0);
-            curl_setopt($curl, CURLOPT_TIMEOUT, 300); //timeout in seconds
-            
+
             $resp = curl_exec($curl);
             curl_close($curl);
             var_dump($resp);
