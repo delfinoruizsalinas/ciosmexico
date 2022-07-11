@@ -13,22 +13,24 @@
         </div>
         <?php
 
-            function curl_download($Url){
-  
-                if (!function_exists('curl_init')){
-                    die('cURL is not installed. Install and try again.');
-                }
-              
-                $ch = curl_init();
-                curl_setopt($ch, CURLOPT_URL, $Url);
-                curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-                $output = curl_exec($ch);
-                curl_close($ch);
-              
-                return $output;
-            }
+   
+        function getRestaurants(){
+            $curl = curl_init(); //Initializes curl
+            curl_setopt($curl, CURLOPT_URL, 'http://localhost:1337/api/partners?populate=imagen');
+            curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+            curl_setopt($curl, CURLOPT_HTTPHEADER, [
+                'Content-Type: application/json'
+            ]); // Sets header information for authenticated requests
+
+            $res = curl_exec($curl);
+            curl_close($curl);
+            print_r($res);
+        }
+
+        getRestaurants();
+
              
-            print curl_download('http://178.62.220.4:1337/api/partners?populate=imagen');
+           // print curl_download('http://178.62.220.4:1337/api/partners?populate=imagen');
             
            /* $curl = curl_init(); //Initializes curl
             curl_setopt($curl, CURLOPT_URL, 'http://178.62.220.4:1337/api/partners?populate=imagen');
