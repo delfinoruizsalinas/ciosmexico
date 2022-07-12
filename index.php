@@ -51,9 +51,8 @@
       <h3 class="title-decorate title-decorate-center">Eventos CIO’s Mexicanos &amp; Latam</h3>
     </div>
   </div>
-  <div class="row row-50">
-    <div class="col-md-6 col-lg-4"><div class="post-modern"><div class="post-modern-figure"><a href="https://www.youtube.com/watch?v=JvsSCbHF1Ac" target="_blank"><img src="http://178.62.220.4:1337/uploads/thumbnail_count_3125587_640_ff3ee16869.jpg" alt="" width="370" height="255"></a><a class="badge-primary badge" href="#">CIOsVlog</a></div><div class="post-modern-caption"><p class="post-modern-date">2022-06-07:19:00:00.000</p><h4 class="post-modern-title"><a href="https://www.youtube.com/watch?v=JvsSCbHF1Ac" target="_blank">Cumplimiento de las obligaciones fiscales en la empresa.</a></h4></div></div></div><div class="col-md-6 col-lg-4"><div class="post-modern"><div class="post-modern-figure"><a href="https://www.youtube.com/watch?v=HCjMH9FweKw" target="_blank"><img src="http://178.62.220.4:1337/uploads/thumbnail_stock_1863880_640_ea0f63e947.jpg" alt="" width="370" height="255"></a><a class="badge-primary badge" href="#">CIOsVlog</a></div><div class="post-modern-caption"><p class="post-modern-date">2022-05-17:19:00:00.000</p><h4 class="post-modern-title"><a href="https://www.youtube.com/watch?v=HCjMH9FweKw" target="_blank">Perspectivas económicas del entorno global y local para este 2022.</a></h4></div></div></div><div class="col-md-6 col-lg-4"><div class="post-modern"><div class="post-modern-figure"><a href="https://www.youtube.com/watch?v=Yvt2UR-6yUM" target="_blank"><img src="http://178.62.220.4:1337/uploads/thumbnail_hacker_3655668_640_ba24f2d02b.jpg" alt="" width="370" height="255"></a><a class="badge-primary badge" href="#">CIOsVlog</a></div><div class="post-modern-caption"><p class="post-modern-date">2022-06-06:19:00:00.000</p><h4 class="post-modern-title"><a href="https://www.youtube.com/watch?v=Yvt2UR-6yUM" target="_blank">Ciberdefensa</a></h4></div></div></div><div class="col-md-6 col-lg-4"><div class="post-modern"><div class="post-modern-figure"><a href="https://youtu.be/5m_RktPcULU" target="_blank"><img src="http://178.62.220.4:1337/uploads/thumbnail_ransomware_2320941_640_abb69d19e3.jpg" alt="" width="370" height="255"></a><a class="badge-primary badge" href="#">CIOsVlog</a></div><div class="post-modern-caption"><p class="post-modern-date">2022-06-21:19:00:00.000</p><h4 class="post-modern-title"><a href="https://youtu.be/5m_RktPcULU" target="_blank">Anatomía de un Ciberataque</a></h4></div></div></div><div class="col-md-6 col-lg-4"><div class="post-modern"><div class="post-modern-figure"><a href="https://youtu.be/bTwJx22GAXg" target="_blank"><img src="http://178.62.220.4:1337/uploads/thumbnail_electrical_2476782_640_f38b41b2e2.jpg" alt="" width="370" height="255"></a><a class="badge-primary badge" href="#">CIOsVlog</a></div><div class="post-modern-caption"><p class="post-modern-date">2022-06-14:12:00:00.000</p><h4 class="post-modern-title"><a href="https://youtu.be/bTwJx22GAXg" target="_blank">Innovación centrada en datos: desde la sala de máquinas hasta la sala de exposición</a></h4></div></div></div><div class="col-md-6 col-lg-4"><div class="post-modern"><div class="post-modern-figure"><a href="https://youtu.be/JvsSCbHF1Ac" target="_blank"><img src="http://178.62.220.4:1337/uploads/thumbnail_laptop_1478822_640_8033887796.jpg" alt="" width="370" height="255"></a><a class="badge-primary badge" href="#">CIOsVlog</a></div><div class="post-modern-caption"><p class="post-modern-date">2022-06-07:19:00:00.000</p><h4 class="post-modern-title"><a href="https://youtu.be/JvsSCbHF1Ac" target="_blank">Las TI´s y el cumplimiento de las obligaciones fiscales de la empresa</a></h4></div></div></div>
-<!--
+  <div class="row row-50" id="ciosvlog">
+  <!--
     <div class="col-md-6 col-lg-4">
       <div class="post-modern post-modern-reverse">
         <div class="post-modern-figure"><a href="https://www.youtube.com/watch?v=9LTCpl_z-UM" target="_blank"><img src="images/cios/event4.png" alt="" width="370" height="255"/></a><a class="badge-secondary badge" href="#">Entre Amigos</a></div>
@@ -222,33 +221,10 @@ Escríbenos y en breve nos pondremos en contacto contigo.</p>
     <div class="snackbars" id="form-output-global"></div>
     <script src="js/core.min.js"></script>
     <script src="js/script.js"></script>
-    
+    <script src="js/apis.js"></script>
     <script>
-      ip_api ='http://178.62.220.4:1337';
-
-      $.getJSON(ip_api+'/api/partners?populate=imagen', function(data) {
-        link = "";
-        url = "";
-        
-          Object.entries(data.data).forEach(([key, value]) => {
-              
-              if(value.attributes.link_pange == null){
-                link = '#';
-              }else{
-                link = value.attributes.link_pange;                        
-              }
-              
-              if(value.attributes.imagen.data.attributes.formats === null){
-                url = value.attributes.imagen.data.attributes.url;
-              }else{
-                url = value.attributes.imagen.data.attributes.formats.thumbnail.url;
-              }
-
-              var text = `<div class="col-sm-6 col-lg-3"><a class="box-sponsor wow fadeInUp" target="_blank" href="${link}" data-wow-delay="1.${key}s"><img src="${ip_api+url}" alt="" width="120" height="119"/></a></div>`;
-              $("#partners").append(text);
-          });
-      });
+      getVlog();
+      getPartners();
     </script>
-
   </body>
 </html>
