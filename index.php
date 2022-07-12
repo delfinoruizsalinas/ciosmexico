@@ -168,7 +168,6 @@ Escríbenos y en breve nos pondremos en contacto contigo.</p>
     <script>
       getVlog();
       getPartners();
-      
     </script>
   </body>
 </html>

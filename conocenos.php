@@ -88,25 +88,30 @@
       <section class="section section-lg bg-default text-center">
           <div class="container">
               <div class="wow-outer">
-              <div class="wow slideInDown" style="visibility: visible; animation-name: slideInDown;">
-                  <h3 class="title-decorate title-decorate-center">Algunos de Nuestros Partners</h3>
-              </div>
-              </div>
-              <div class="row row-30">
-              <div class="col-12 wow-outer">
-                  <div class="wow slideInDown" style="visibility: visible; animation-name: slideInDown;">
-                  <h5 class="gradient-title text-gradient-2"></h5>
+                  <div class="wow slideInDown">
+                      <h3 class="title-decorate title-decorate-center">Algunos de Nuestros Partners</h3>
                   </div>
               </div>
-              <div class="col-sm-6 col-lg-3"><a class="box-sponsor wow fadeInUp" target="_blank" href="#" data-wow-delay="1.0s" style="visibility: visible; animation-delay: 1s; animation-name: fadeInUp;"><img src="http://178.62.220.4:1337/uploads/thumbnail_Rackspace_Technology_Logo_RGB_BLK_0d9007eed4.png" alt="" width="120" height="119"></a></div><div class="col-sm-6 col-lg-3"><a class="box-sponsor wow fadeInUp" target="_blank" href="#" data-wow-delay="1.1s" style="visibility: visible; animation-delay: 1.1s; animation-name: fadeInUp;"><img src="http://178.62.220.4:1337/uploads/thumbnail_Netjer_Logo_Grande_transparente_3_1024x768_27a0932738.png" alt="" width="120" height="119"></a></div><div class="col-sm-6 col-lg-3"><a class="box-sponsor wow fadeInUp" target="_blank" href="#" data-wow-delay="1.2s" style="visibility: visible; animation-delay: 1.2s; animation-name: fadeInUp;"><img src="http://178.62.220.4:1337/uploads/syniti_logo_2281169707.png" alt="" width="120" height="119"></a></div><div class="col-sm-6 col-lg-3"><a class="box-sponsor wow fadeInUp" target="_blank" href="#" data-wow-delay="1.3s" style="visibility: visible; animation-delay: 1.3s; animation-name: fadeInUp;"><img src="http://178.62.220.4:1337/uploads/thumbnail_ernst_young_logo_0_1_10078e41e6.png" alt="" width="120" height="119"></a></div><div class="col-sm-6 col-lg-3"><a class="box-sponsor wow fadeInUp" target="_blank" href="#" data-wow-delay="1.4s" style="visibility: visible; animation-delay: 1.4s; animation-name: fadeInUp;"><img src="http://178.62.220.4:1337/uploads/thumbnail_NPD_Tinta_verde_sin_fondo_1024_88a41061ac.png" alt="" width="120" height="119"></a></div><div class="col-sm-6 col-lg-3"><a class="box-sponsor wow fadeInUp" target="_blank" href="#" data-wow-delay="1.5s" style="visibility: visible; animation-delay: 1.5s; animation-name: fadeInUp;"><img src="http://178.62.220.4:1337/uploads/logo_aubay_RGB_150x150_a7693d3c13.jpg" alt="" width="120" height="119"></a></div><div class="col-sm-6 col-lg-3"><a class="box-sponsor wow fadeInUp" target="_blank" href="https://www.jcgreestudios.com/" data-wow-delay="1.6s" style="visibility: visible; animation-delay: 1.6s; animation-name: fadeInUp;"><img src="http://178.62.220.4:1337/uploads/JC_logo_7083b8da95.jpeg" alt="" width="120" height="119"></a></div><div class="col-sm-6 col-lg-3"><a class="box-sponsor wow fadeInUp" target="_blank" href="#" data-wow-delay="1.7s" style="visibility: visible; animation-delay: 1.7s; animation-name: fadeInUp;"><img src="http://178.62.220.4:1337/uploads/thumbnail_logo_Zscalerpng_e949f25e0e.png" alt="" width="120" height="119"></a></div><div class="col-sm-6 col-lg-3"><a class="box-sponsor wow fadeInUp" target="_blank" href="#" data-wow-delay="1.8s" style="visibility: visible; animation-delay: 1.8s; animation-name: fadeInUp;"><img src="http://178.62.220.4:1337/uploads/thumbnail_logo_Equinix_52f036b3a7.png" alt="" width="120" height="119"></a></div><div class="col-sm-6 col-lg-3"><a class="box-sponsor wow fadeInUp" target="_blank" href="#" data-wow-delay="1.9s" style="visibility: visible; animation-delay: 1.9s; animation-name: fadeInUp;"><img src="http://178.62.220.4:1337/uploads/120px_Mongo_DB_Logo_svg_1d51dfc0d9.png" alt="" width="120" height="119"></a></div>
-          </div>
+              <div class="row row-30" id="partners">
+                  <div class="col-12 wow-outer">
+                      <div class="wow slideInDown">
+                      <h5 class="gradient-title text-gradient-2"></h5>
+                      </div>
+                  </div>
+
+              </div>
           </div>
       </section>
+
       <!-- Page Footer-->
       <?php include 'footer.php' ?>
     </div>
     <div class="snackbars" id="form-output-global"></div>
     <script src="js/core.min.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/apis.js"></script>    
+    <script>
+      getPartners();
+    </script>
   </body>
 </html>
