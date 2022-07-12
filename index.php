@@ -155,24 +155,26 @@ Escríbenos y en breve nos pondremos en contacto contigo.</p>
           </div>
         </div>
       </section>   
-        <!-- api block partners-->   
+        <!-- api block -->   
+
       <section class="section section-lg bg-default text-center">
           <div class="container">
               <div class="wow-outer">
-              <div class="wow slideInDown">
-                  <h3 class="title-decorate title-decorate-center">Algunos de Nuestros Partners</h3>
-              </div>
-              </div>
-              <div class="row row-30">
-              <div class="col-12 wow-outer">
                   <div class="wow slideInDown">
-                  <h5 class="gradient-title text-gradient-2"></h5>
+                      <h3 class="title-decorate title-decorate-center">Algunos de Nuestros Partners</h3>
                   </div>
               </div>
-              <h1>aki va el bloque</h1>
-          </div>
+              <div class="row row-30" id="partners">
+                  <div class="col-12 wow-outer">
+                      <div class="wow slideInDown">
+                      <h5 class="gradient-title text-gradient-2"></h5>
+                      </div>
+                  </div>
+
+              </div>
           </div>
       </section>
+
       <section class="section section-xl bg-gray-700 bg-dots-light">
         <div class="container">
           <div class="row row-50">
@@ -220,47 +222,33 @@ Escríbenos y en breve nos pondremos en contacto contigo.</p>
     <div class="snackbars" id="form-output-global"></div>
     <script src="js/core.min.js"></script>
     <script src="js/script.js"></script>
+    
     <script>
-      $.ajax({
-        type: 'GET',
-        url: 'http://178.62.220.4:1337/api/partners?populate=imagen',
-        dataType: 'json',
-        success: function(data) {
-          
+      ip_api ='http://178.62.220.4:1337';
 
-          $.each(data.data, function(key, value){
-            link = "";
-            /*if(!value[key]['attributes'].link_pange.length){
-              link = '#';
-            }else{
-              link = value[key].attributes.link_pange;                        
-            }*/
-            console.log(value.attributes.link_pange);
+      $.getJSON(ip_api+'/api/partners?populate=imagen', function(data) {
+        link = "";
+        url = "";
+        
+          Object.entries(data.data).forEach(([key, value]) => {
+              
+              if(value.attributes.link_pange == null){
+                link = '#';
+              }else{
+                link = value.attributes.link_pange;                        
+              }
+              
+              if(value.attributes.imagen.data.attributes.formats === null){
+                url = value.attributes.imagen.data.attributes.url;
+              }else{
+                url = value.attributes.imagen.data.attributes.formats.thumbnail.url;
+              }
+
+              var text = `<div class="col-sm-6 col-lg-3"><a class="box-sponsor wow fadeInUp" target="_blank" href="${link}" data-wow-delay="1.${key}s"><img src="${ip_api+url}" alt="" width="120" height="119"/></a></div>`;
+              $("#partners").append(text);
           });
-
-   
-/*
-          $url ="";
-          $link = "";
-          $i = $key;
-
-          if(empty($value->attributes->link_pange)){
-              $link = '#';
-          }else{
-              $link = $value->attributes->link_pange;                        
-          }
-          foreach($value->attributes->imagen as $item){
-
-                  if(empty($item->attributes->formats->thumbnail)){
-                      $url = 'http://178.62.220.4:1337'.$item->attributes->url;
-                  }else{
-                      $url = 'http://178.62.220.4:1337'.$item->attributes->formats->thumbnail->url;                               
-                  }
-          }       
-          echo '<div class="col-sm-6 col-lg-3"><a class="box-sponsor wow fadeInUp" target="_blank" href="'.$link.'" data-wow-delay="1.'.$i.'s"><img src="'.$url.'" alt="" width="120" height="119"/></a></div>';
-          */
-        }
       });
     </script>
+
   </body>
 </html>
