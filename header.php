@@ -16,7 +16,7 @@
             <div class="block-right">
             <ul class="list-inline nav-list">
                 <li class="list-inline-item text-menu"><a href="conocenos.php">Conocenos</a></li>
-                <li class="list-inline-item text-menu"><a href="#">Comité ejecutivo</a></li>
+                <li class="list-inline-item text-menu"><a href="comite-ejecutivo.php">Comité ejecutivo</a></li>
                 <li class="list-inline-item text-menu"><a href="#">Contacto</a></li>
             </ul>
             <div class="rd-navbar-collapse-toggle rd-navbar-fixed-element-1" data-rd-navbar-toggle=".rd-navbar-collapse"><span></span></div>
