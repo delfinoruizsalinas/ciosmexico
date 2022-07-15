@@ -25,7 +25,7 @@
       <!-- Page Header-->
       <?php include 'header.php' ?>
       <!-- Swiper-->
-      <section class="parallax-container" data-parallax-img="images/portadaConocenos.jpeg">
+      <section class="parallax-container" data-parallax-img="images/comite.jpeg">
         <div class="parallax-content breadcrumbs-custom context-dark"> 
           <div class="container">
             <div class="row justify-content-center">
@@ -47,7 +47,7 @@
               <div class="team-classic">
                 <div class="team-classic-figure"><img src="images/cios/MariselaOrcolor.jpg" alt="" width="390" height="252"/>
                   <ul class="team-classic-soc-list">
-                    <li><a class="icon icon-md fa-facebook" href="#"></a></li>
+                    <li><a class="icon icon-md fa-facebook" href="https://www.linkedin.com/in/marisela-orihuela-tecnologia/"></a></li>
                     <li><a class="icon icon-md fa-instagram" href="#"></a></li>
                     <li><a class="icon icon-md fa-twitter" href="#"></a></li>
                   </ul>
@@ -62,7 +62,7 @@
               <div class="team-classic">
                 <div class="team-classic-figure"><img src="images/cios/Juan-CarlosOM.jpg" alt="" width="390" height="252"/>
                   <ul class="team-classic-soc-list">
-                    <li><a class="icon icon-md fa-facebook" href="#"></a></li>
+                    <li><a class="icon icon-md fa-facebook" href="https://www.linkedin.com/in/juan-carlos-ortiz/"></a></li>
                     <li><a class="icon icon-md fa-instagram" href="#"></a></li>
                     <li><a class="icon icon-md fa-twitter" href="#"></a></li>
                   </ul>
@@ -77,7 +77,7 @@
               <div class="team-classic">
                 <div class="team-classic-figure"><img src="images/cios/RafaelSanchez.jpg" alt="" width="390" height="252"/>
                   <ul class="team-classic-soc-list">
-                    <li><a class="icon icon-md fa-facebook" href="#"></a></li>
+                    <li><a class="icon icon-md fa-facebook" href="https://www.linkedin.com/in/rafael-sanchez-ferreiro-19613724/"></a></li>
                     <li><a class="icon icon-md fa-instagram" href="#"></a></li>
                     <li><a class="icon icon-md fa-twitter" href="#"></a></li>
                   </ul>
@@ -92,7 +92,7 @@
               <div class="team-classic">
                 <div class="team-classic-figure"><img src="images/cios/Victor-Ninomiya.jpg" alt="" width="390" height="252"/>
                   <ul class="team-classic-soc-list">
-                    <li><a class="icon icon-md fa-facebook" href="#"></a></li>
+                    <li><a class="icon icon-md fa-facebook" href="https://www.linkedin.com/in/victor-ninomiya-1931b1/"></a></li>
                     <li><a class="icon icon-md fa-instagram" href="#"></a></li>
                     <li><a class="icon icon-md fa-twitter" href="#"></a></li>
                   </ul>
