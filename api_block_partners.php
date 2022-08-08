@@ -25,10 +25,10 @@
             curl_close($curl);
 
             $obj = json_decode($res);
-            print_r($res);
+            //print_r($res);
 
 
-/*            
+            
             foreach ($obj->data as $key => $value) {
 
                 $url ="";
@@ -49,7 +49,7 @@
                         }
                 }       
                 echo '<div class="col-sm-6 col-lg-3"><a class="box-sponsor wow fadeInUp" target="_blank" href="'.$link.'" data-wow-delay="1.'.$i.'s"><img src="'.$url.'" alt="" width="120" height="119"/></a></div>';
-            }*/
+            }
               
         ?>
 
