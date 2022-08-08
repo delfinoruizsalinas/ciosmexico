@@ -44,17 +44,11 @@
         </div>
       </section>
 
-      <section class="section section-lg bg-gray-1">
-<div class="container">
-<div class="wow-outer">
-  <div class="wow slideInDown text-center" style="visibility: hidden; animation-name: none;">
-      <h3 class="title-decorate title-decorate-center">Eventos CIO’s Mexicanos &amp; Latam</h3>
-    </div>
-  </div>
-  <div class="row row-50" id="ciosvlog">
-  </div>
-</div>
-</section>
+      <!-- api events -->   
+
+      <?php
+        include('api_block_events.php');
+      ?>
       
       <section class="section section-xl bg-gray-700 bg-decorate">
         <div class="container">
@@ -97,11 +91,11 @@ Escríbenos y en breve nos pondremos en contacto contigo.</p>
           </div>
         </div>
       </section>   
-        <!-- api block -->   
+      <!-- api partners -->   
 
-<?php
-  include('api_block_partners.php');
-?>
+      <?php
+        include('api_block_partners.php');
+      ?>
 
       <section class="section section-xl bg-gray-700 bg-dots-light">
         <div class="container">

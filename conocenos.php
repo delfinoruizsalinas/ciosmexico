@@ -85,23 +85,11 @@
           </div>
         </div>
       </section>      
-      <section class="section section-lg bg-default text-center">
-          <div class="container">
-              <div class="wow-outer">
-                  <div class="wow slideInDown">
-                      <h3 class="title-decorate title-decorate-center">Algunos de Nuestros Partners</h3>
-                  </div>
-              </div>
-              <div class="row row-30" id="partners">
-                  <div class="col-12 wow-outer">
-                      <div class="wow slideInDown">
-                      <h5 class="gradient-title text-gradient-2"></h5>
-                      </div>
-                  </div>
+      <!-- api partners -->   
 
-              </div>
-          </div>
-      </section>
+      <?php
+        include('api_block_partners.php');
+      ?>
 
       <!-- Page Footer-->
       <?php include 'footer.php' ?>
@@ -109,9 +97,7 @@
     <div class="snackbars" id="form-output-global"></div>
     <script src="js/core.min.js"></script>
     <script src="js/script.js"></script>
-    <script src="js/apis.js"></script>    
     <script>
-      getPartners();
     </script>
   </body>
 </html>
