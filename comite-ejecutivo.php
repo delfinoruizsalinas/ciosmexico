@@ -25,15 +25,15 @@
       <!-- Page Header-->
       <?php include 'header.php' ?>
       <!-- Swiper-->
-      <section class="parallax-container" data-parallax-img="images/comite.jpeg">
+      <section class="parallax-container" data-parallax-img="images/cios/pexels-fauxels-3183197.jpg">
         <div class="parallax-content breadcrumbs-custom context-dark"> 
           <div class="container">
             <div class="row justify-content-center">
               <div class="col-12 col-lg-9">
-                <h2 class="breadcrumbs-custom-title">Comite Ejecutivo</h2>
+                <h2 class="breadcrumbs-custom-title">Comité Ejecutivo</h2>
                 <ul class="breadcrumbs-custom-path">
                   <li><a href="index.php">Inicio</a></li>
-                  <li class="active">Comite Ejecutivo</li>
+                  <li class="active">Comité Ejecutivo</li>
                 </ul>
               </div>
             </div>
@@ -42,62 +42,55 @@
       </section>
       <section class="section section-lg bg-gray-1">
         <div class="container">
+          
           <div class="row no-gutters">
             <div class="col-md-6 col-lg-4">
-              <div class="team-classic">
-                <div class="team-classic-figure"><img src="images/cios/MariselaOrcolor.jpg" alt="" width="390" height="252"/>
-                  <ul class="team-classic-soc-list">
-                    <li><a class="icon icon-md fa-facebook" href="https://www.linkedin.com/in/marisela-orihuela-tecnologia/"></a></li>
-                    <li><a class="icon icon-md fa-instagram" href="#"></a></li>
-                    <li><a class="icon icon-md fa-twitter" href="#"></a></li>
+              <div class="team-modern">
+                <div class="team-modern-figure"><img src="images/cios/MariselaOrcolor.jpg" alt="" width="390" height="252"/>
+                  <ul class="team-modern-soc-list">
+                    <li><a class="icon icon-md fa-linkedin" href="https://www.linkedin.com/in/marisela-orihuela-tecnologia/" target="_blank"></a></li>
                   </ul>
                 </div>
-                <div class="team-classic-caption">
+                <div class="team-modern-caption">
                   <h4><a class="team-name" href="#">Marisela Orihuela</a></h4>
                   <p>Presidente de CIO's Mexicanos</p>
                 </div>
               </div>
             </div>
             <div class="col-md-6 col-lg-4">
-              <div class="team-classic">
-                <div class="team-classic-figure"><img src="images/cios/Juan-CarlosOM.jpg" alt="" width="390" height="252"/>
-                  <ul class="team-classic-soc-list">
-                    <li><a class="icon icon-md fa-facebook" href="https://www.linkedin.com/in/juan-carlos-ortiz/"></a></li>
-                    <li><a class="icon icon-md fa-instagram" href="#"></a></li>
-                    <li><a class="icon icon-md fa-twitter" href="#"></a></li>
+              <div class="team-modern">
+                <div class="team-modern-figure"><img src="images/cios/Juan-CarlosOM.jpg" alt="" width="390" height="252"/>
+                  <ul class="team-modern-soc-list">
+                    <li><a class="icon icon-md fa-linkedin" href="https://www.linkedin.com/in/juan-carlos-ortiz/" target="_blank"></a></li>
                   </ul>
                 </div>
-                <div class="team-classic-caption">
+                <div class="team-modern-caption">
                   <h4><a class="team-name" href="#">Juan Carlos Ortiz de M.</a></h4>
                   <p>Vicepresidente, CIO's Mexicanos</p>
                 </div>
               </div>
             </div>
             <div class="col-md-6 col-lg-4">
-              <div class="team-classic">
-                <div class="team-classic-figure"><img src="images/cios/RafaelSanchez.jpg" alt="" width="390" height="252"/>
-                  <ul class="team-classic-soc-list">
-                    <li><a class="icon icon-md fa-facebook" href="https://www.linkedin.com/in/rafael-sanchez-ferreiro-19613724/"></a></li>
-                    <li><a class="icon icon-md fa-instagram" href="#"></a></li>
-                    <li><a class="icon icon-md fa-twitter" href="#"></a></li>
+              <div class="team-modern">
+                <div class="team-modern-figure"><img src="images/cios/RafaelSanchez.jpg" alt="" width="390" height="252"/>
+                  <ul class="team-modern-soc-list">
+                    <li><a class="icon icon-md fa-linkedin" href="https://www.linkedin.com/in/rafael-sanchez-ferreiro-19613724/" target="_blank"></a></li>
                   </ul>
                 </div>
-                <div class="team-classic-caption">
+                <div class="team-modern-caption">
                   <h4><a class="team-name" href="#">Rafael Sánchez</a></h4>
                   <p>Director General, CIO's Mexicanos</p>
                 </div>
               </div>
             </div>            
             <div class="col-md-6 col-lg-4">
-              <div class="team-classic">
-                <div class="team-classic-figure"><img src="images/cios/Victor-Ninomiya.jpg" alt="" width="390" height="252"/>
-                  <ul class="team-classic-soc-list">
-                    <li><a class="icon icon-md fa-facebook" href="https://www.linkedin.com/in/victor-ninomiya-1931b1/"></a></li>
-                    <li><a class="icon icon-md fa-instagram" href="#"></a></li>
-                    <li><a class="icon icon-md fa-twitter" href="#"></a></li>
+              <div class="team-modern">
+                <div class="team-modern-figure"><img src="images/cios/Victor-Ninomiya.jpg" alt="" width="390" height="252"/>
+                  <ul class="team-modern-soc-list">
+                    <li><a class="icon icon-md fa-linkedin" href="https://www.linkedin.com/in/victor-ninomiya-1931b1/" target="_blank"></a></li>
                   </ul>
                 </div>
-                <div class="team-classic-caption">
+                <div class="team-modern-caption">
                   <h4><a class="team-name" href="#">Victor Ninomiya</a></h4>
                   <p>Secretario, CIO's Mexicanos</p>
                 </div>
@@ -107,23 +100,13 @@
           </div>
         </div>
       </section>     
-      <section class="section section-lg bg-default text-center">
-          <div class="container">
-              <div class="wow-outer">
-                  <div class="wow slideInDown">
-                      <h3 class="title-decorate title-decorate-center">Algunos de Nuestros Partners</h3>
-                  </div>
-              </div>
-              <div class="row row-30" id="partners">
-                  <div class="col-12 wow-outer">
-                      <div class="wow slideInDown">
-                      <h5 class="gradient-title text-gradient-2"></h5>
-                      </div>
-                  </div>
+      
+      <!-- api partners -->   
 
-              </div>
-          </div>
-      </section>
+      <?php
+        include('api_block_partners.php');
+      ?>
+
 
       <!-- Page Footer-->
       <?php include 'footer.php' ?>
@@ -131,9 +114,5 @@
     <div class="snackbars" id="form-output-global"></div>
     <script src="js/core.min.js"></script>
     <script src="js/script.js"></script>
-    <script src="js/apis.js"></script>    
-    <script>
-      getPartners();
-    </script>
   </body>
 </html>
