@@ -7,8 +7,8 @@
         <div class="col-12">
         <ul class="footer-minimal-nav">
             <li><a href="conocenos.php">Conocenos</a></li>
-            <li><a href="#">Comite ejecutivo</a></li>
-            <li><a href="#">Contacto </a></li>
+            <li><a href="comite-ejecutivo.php">Comite ejecutivo</a></li>
+            <li><a href="contacto.php">Contacto </a></li>
         </ul>
         </div>
         <div class="col-12">
