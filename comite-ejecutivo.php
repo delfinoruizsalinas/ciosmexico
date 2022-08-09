@@ -17,6 +17,9 @@
             background-image: url(images/cios/pexels-fauxels-3183150_mobile.jpg) !important;
             background-attachment: unset;
         }
+        .event-item-classic{
+          flex-direction: row-reverse !important;
+        }
     }
 
     </style>
