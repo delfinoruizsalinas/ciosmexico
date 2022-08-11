@@ -5243,7 +5243,7 @@ html [class*='section-'].section-bottom-0 {
 	bottom: 0;
 	right: 0;
 	content: '';
-	background: linear-gradient(359.73deg, #3A092F 0.9%, rgba(60, 55, 79, 0.45) 107.43%);
+	background: linear-gradient(359.73deg, #50896a 0.9%, rgba(60, 55, 79, 0.45) 107.43%);
 	z-index: 1;
 }
 
