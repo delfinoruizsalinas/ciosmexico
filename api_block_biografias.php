@@ -9,13 +9,7 @@
           $resumen = "";
           $ld = "";
           foreach($value->attributes->imagen as $item){
-                
-                  /*if(empty($item->attributes->formats->thumbnail)){
-                      $url = 'http://178.62.220.4:1337'.$item->attributes->url;
-                  }else{
-                      $url = 'http://178.62.220.4:1337'.$item->attributes->formats->thumbnail->url;                               
-                  }*/
-                  
+
                   $url = 'http://178.62.220.4:1337'.$item->attributes->url;
           }
           $ld = $value->attributes->linkdn;

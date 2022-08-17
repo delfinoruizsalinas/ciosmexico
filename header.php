@@ -44,15 +44,16 @@
                 
                 </li>
                 
-                <li class="rd-nav-item"><a class="rd-nav-link" href="eventos.php">Eventos</a>
-                    <!--<ul class="rd-menu rd-navbar-dropdown">
-                        <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="#">Presenciales</a></li>
-                        <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="#">Virtuales</a></li>
+                <li class="rd-nav-item"><a class="rd-nav-link" href="#">Eventos</a>
+                    <ul class="rd-menu rd-navbar-dropdown">
+                        <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="eventos_presenciales.php">Presenciales</a></li>
+                    <!--    <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="#">Virtuales</a></li>
                         <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="#">Cios vlog</a></li>
                         <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="#">Cios live</a></li>
                         <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="#">Entre amigos</a></li>         
-                    </ul>
                     -->
+                    </ul>
+                    
                 </li>
 
                 <li class="rd-nav-item"><a class="rd-nav-link" href="#">Multimedia</a>
