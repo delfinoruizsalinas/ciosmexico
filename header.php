@@ -34,7 +34,7 @@
         <div class="rd-navbar-main-element"> 
             <div class="rd-navbar-nav-wrap">
             <ul class="rd-navbar-nav">
-                <li class="rd-nav-item active"><a class="rd-nav-link" href="#">Inicio</a>
+                <li class="rd-nav-item active"><a class="rd-nav-link" href="index.php">Inicio</a>
                 <!--<ul class="rd-menu rd-navbar-dropdown">
                     <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="#">Home 2</a>
                     </li>
@@ -44,14 +44,15 @@
                 
                 </li>
                 
-                <li class="rd-nav-item"><a class="rd-nav-link" href="#">Eventos</a>
-                    <ul class="rd-menu rd-navbar-dropdown">
+                <li class="rd-nav-item"><a class="rd-nav-link" href="eventos.php">Eventos</a>
+                    <!--<ul class="rd-menu rd-navbar-dropdown">
                         <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="#">Presenciales</a></li>
                         <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="#">Virtuales</a></li>
                         <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="#">Cios vlog</a></li>
                         <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="#">Cios live</a></li>
                         <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="#">Entre amigos</a></li>         
                     </ul>
+                    -->
                 </li>
 
                 <li class="rd-nav-item"><a class="rd-nav-link" href="#">Multimedia</a>
@@ -62,9 +63,9 @@
                         </li>
                     </ul>
                 </li>
-
+                
                 <li class="rd-nav-item"><a class="rd-nav-link" href="#">Noticias</a>
-                    <ul class="rd-menu rd-navbar-dropdown">
+                    <!--    <ul class="rd-menu rd-navbar-dropdown">
                         <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="#">Cios premiados</a>
                         </li>
                         <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="#">Nuevos miembros</a>
@@ -72,6 +73,7 @@
                         <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="#">Noticias del día</a>
                         </li>                        
                     </ul>
+                    -->                    
                 </li>
             </ul>
             </div>

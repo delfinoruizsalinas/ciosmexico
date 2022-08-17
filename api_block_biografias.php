@@ -1,4 +1,3 @@
-
 <?php 
       //url api eventos-virtuales                                                                           
       $json = file_get_contents('http://178.62.220.4:1337/api/biografias?populate=imagen');
@@ -7,25 +6,34 @@
       // In the case of this input, do key and array lookups to get the values
       foreach ($obj->data as $key => $value) {
          
-          
+          $resumen = "";
+          $ld = "";
           foreach($value->attributes->imagen as $item){
                 
-                  if(empty($item->attributes->formats->thumbnail)){
+                  /*if(empty($item->attributes->formats->thumbnail)){
                       $url = 'http://178.62.220.4:1337'.$item->attributes->url;
                   }else{
                       $url = 'http://178.62.220.4:1337'.$item->attributes->formats->thumbnail->url;                               
-                  }
+                  }*/
+                  
+                  $url = 'http://178.62.220.4:1337'.$item->attributes->url;
           }
-
-          echo '<div class="event-item-classic wow slideInleft">
-            <div class="event-item-classic-figure"><a href="comite-ejecutivo-biografia.php?id='.$value->id.'"><img src="'.$url.'" alt="" width="109" height="109"/></a>
+          $ld = $value->attributes->linkdn;
+          echo '<div class="col-md-6 col-lg-4 wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+            <div class="team-modern">
+                <div class="team-modern-figure"><img src="'.$url.'" alt="" width="375" height="290">
+                <ul class="team-modern-soc-list">
+                    <li><a class="icon icon-sm fa-linkedin" href="'.$ld.'" target="_blank"></a></li>
+                    <li><a class="icon icon-sm fa-youtube-play" href="https://www.youtube.com/c/CIOsMexicanosLATAMTV" target="_blank"></a></li>
+                    <li><a class="icon icon-sm fa-twitter" href="https://twitter.com/CIOsMexOficial" target="_blank"></a></li>
+                </ul>
+                </div>
+                <div class="team-modern-caption">
+                <h4><a class="team-name" href="comite-ejecutivo-biografia.php?id='.$value->id.'">'.$value->attributes->titulo.'</a></h4>
+                <p>'.$value->attributes->cargo.' </p>
+                </div>
             </div>
-            <div class="event-item-classic-caption">
-            <h4 class="event-item-classic-title"><a href="comite-ejecutivo-biografia.php?id='.$value->id.'">'.$value->attributes->titulo.'</a></h4>
-            <p class="events-time">'.$value->attributes->cargo.' </p>
-            </div>
-        </div>';
-
+            </div>';
       }           
 
 ?>

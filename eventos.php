@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="wide wow-animation" lang="en">
   <head>
-    <title>Cios Mexicanos - Comite Ejecutivo Biografia</title>
+    <title>Cios Mexicanos - Comite Ejecutivo</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,19 +11,16 @@
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
     <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
-  
     <style>
-
-    @media (max-width: 400px) {
+      @media (max-width: 400px) {
         #portada {
-            background-image: url(images/cios/pexels-cottonbro-5989933_mobile.jpg) !important;
+            background-image: url(images/cios/pexels-helena-lopes-705792-mobile.jpg) !important;
             background-attachment: unset;
         }
-        .block-decorate-img{
-            padding-left: 0px;
+        .event-item-classic{
+          flex-direction: row-reverse !important;
         }
     }
-
 
     </style>
   </head>
@@ -39,16 +36,16 @@
     <div class="page">
       <!-- Page Header-->
       <?php include 'header.php' ?>
-      <!-- Swiper data-parallax-img="images/cios/pexels-cottonbro-5989933.jpg"-->
-      <section class="parallax-container" id="portada" data-parallax-img="images/cios/pexels-cottonbro-5989933.jpg">
+      <!-- Swiper-->
+      <section class="parallax-container" id="portada" data-parallax-img="images/cios/pexels-helena-lopes-705792.jpg">
         <div class="parallax-content breadcrumbs-custom context-dark"> 
           <div class="container">
             <div class="row justify-content-center">
               <div class="col-12 col-lg-9">
-                <h2 class="breadcrumbs-custom-title">Acerca de</h2>
+                <h2 class="breadcrumbs-custom-title">Eventos</h2>
                 <ul class="breadcrumbs-custom-path">
-                  <li><a href="comite-ejecutivo.php">Comité Ejecutivo</a></li>
-                  <li class="active">ACERCA DE</li>
+                  <li><a href="index.php">Inicio</a></li>
+                  <li class="active">Eventos</li>
                 </ul>
               </div>
             </div>
@@ -58,7 +55,7 @@
       <section class="section section-lg bg-gray-1">
         <div class="container">          
           <?php
-            include('api_block_biografia_id.php');
+            //include('api_block_biografias.php');
           ?>  
         </div>
       </section>     

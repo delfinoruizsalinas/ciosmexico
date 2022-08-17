@@ -52,14 +52,26 @@
           </div>
         </div>
       </section>
-      <section class="section section-lg bg-gray-1">
-        <div class="container">          
+      <section class="section section-xl bg-gray-700 bg-decorate">
+          <div class="container">
+          <div class="row row-30 align-items-lg-end">
+              <div class="col-lg-4 order-lg-2 text-lg-right wow-outer">
+              <div class="wow slideInRight" style="visibility: visible; animation-name: slideInRight;">
+                  <h3 class="title-decorate">Comité Ejecutivo </h3>
+              </div>
+              </div>
+              <div class="col-lg-8 order-lg-1 wow-outer">
+              <div class="wow slideInLeft" style="visibility: visible; animation-name: slideInLeft;">
+                  <p class="text-opacity-80">CIO's Mexicanos & Latam es una comunidad inspiradora que fomenta la unión y el apoyo entre sus asociados basados en sus propias experiencias</p>
+              </div>
+              </div>
+          </div>
+          <div class="row row-30">
           <?php
             include('api_block_biografias.php');
           ?>  
-        </div>
-      </section>     
-      
+          </div>
+      </section>
       <!-- api partners -->   
 
       <?php
