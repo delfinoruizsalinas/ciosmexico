@@ -26,6 +26,7 @@
                     <li class="text-menu"><a class="icon fa-facebook" href="https://www.facebook.com/CIOs-Mexicanos-and-Latam-103293739083234" target="_blank"></a></li>
                     <li class="text-menu"><a class="icon fa-linkedin" href="https://www.linkedin.com/company/cio-s-mexicanos/" target="_blank"></a></li>
                     <li class="text-menu"><a class="icon fa-youtube-play" href="https://www.youtube.com/c/CIOsMexicanosLATAMTV" target="_blank"></a></li>
+                    <li class="text-menu"><a class="icon icon-sm fa-twitter" href="https://twitter.com/ciosmexoficial?lang=es" target="_blank"></a></li>
                 </ul>
                 </div>
             </div>
@@ -48,7 +49,7 @@
                     <ul class="rd-menu rd-navbar-dropdown">
                         <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="eventos_presenciales.php">Presenciales</a></li>
                     <!--    <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="#">Virtuales</a></li>
-                        <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="#">Cios vlog</a></li>
+                        
                         <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="#">Cios live</a></li>
                         <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="#">Entre amigos</a></li>         
                     -->

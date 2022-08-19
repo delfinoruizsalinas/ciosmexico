@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="wide wow-animation" lang="en">
   <head>
-    <title>Cios Mexicanos - Comite Ejecutivo</title>
+    <title>Cios Mexicanos - Comite Ejecutivo Biografia</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,16 +11,19 @@
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
     <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
+  
     <style>
-      @media (max-width: 400px) {
+
+    @media (max-width: 400px) {
         #portada {
-            background-image: url(images/cios/pexels-fauxels-3183150_mobile.jpg) !important;
+            background-image: url(images/cios/pexels-cottonbro-5989933_mobile.jpg) !important;
             background-attachment: unset;
         }
-        .event-item-classic{
-          flex-direction: row-reverse !important;
+        .block-decorate-img{
+            padding-left: 0px;
         }
     }
+
 
     </style>
   </head>
@@ -36,42 +39,30 @@
     <div class="page">
       <!-- Page Header-->
       <?php include 'header.php' ?>
-      <!-- Swiper-->
-      <section class="parallax-container" id="portada" data-parallax-img="images/cios/pexels-fauxels-3183197.jpg">
+      <!-- Swiper data-parallax-img="images/cios/pexels-cottonbro-5989933.jpg"-->
+      <section class="parallax-container" id="portada" data-parallax-img="images/cios/pexels-cottonbro-5989933.jpg">
         <div class="parallax-content breadcrumbs-custom context-dark"> 
           <div class="container">
             <div class="row justify-content-center">
               <div class="col-12 col-lg-9">
-                <h2 class="breadcrumbs-custom-title">Comité Ejecutivo</h2>
+                <h2 class="breadcrumbs-custom-title">Acerca de</h2>
                 <ul class="breadcrumbs-custom-path">
-                  <li><a href="index.php">Inicio</a></li>
-                  <li class="active">Comité Ejecutivo</li>
+                  <li><a href="comite-ejecutivo.php">Comité Ejecutivo</a></li>
+                  <li class="active">ACERCA DE</li>
                 </ul>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section class="section section-xl bg-gray-700 bg-decorate">
-          <div class="container">
-          <div class="row row-30 align-items-lg-end">
-              <div class="col-lg-4 order-lg-2 text-lg-right wow-outer">
-              <div class="wow slideInRight" style="visibility: visible; animation-name: slideInRight;">
-                  <h3 class="title-decorate">Comité Ejecutivo </h3>
-              </div>
-              </div>
-              <div class="col-lg-8 order-lg-1 wow-outer">
-              <div class="wow slideInLeft" style="visibility: visible; animation-name: slideInLeft;">
-                  <p class="text-opacity-80">CIO's Mexicanos & Latam es una comunidad inspiradora que fomenta la unión y el apoyo entre sus asociados basados en sus propias experiencias</p>
-              </div>
-              </div>
-          </div>
-          <div class="row row-30">
+      <section class="section section-lg bg-gray-1">
+        <div class="container">          
           <?php
-            include('api_block_comite_ejecutivo.php');
+            include('api_block_comite_ejecutivo_id.php');
           ?>  
-          </div>
-      </section>
+        </div>
+      </section>     
+      
       <!-- api partners -->   
 
       <?php
