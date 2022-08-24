@@ -21,9 +21,9 @@
                         //comite-ejecutivo-biografia.php?id='.$value->id.'
                         echo '<div class="wow slideInUp">
                                 <div class="post-classic">
-                                <div class="post-classic-figure"><a href="eventos-detalle.php?id='.$value->id.'"><img src="'.$url.'" alt="" width="370" height="255"/></a></div>
+                                <div class="post-classic-figure"><a href="eventos-detalle.php?id='.$value->id.'&evento=presencial"><img src="'.$url.'" alt="" width="370" height="255"/></a></div>
                                 <div class="post-classic-caption">
-                                    <h4 class="post-classic-title"><a href="eventos-detalle.php?id='.$value->id.'">'.$value->attributes->titulo.'</a></h4>
+                                    <h4 class="post-classic-title"><a href="eventos-detalle.php?id='.$value->id.'&evento=presencial">'.$value->attributes->titulo.'</a></h4>
                                     <ul class="post-classic-meta">
                                     <li>'.$value->attributes->fecha.'</li>
                                     <li><a class="post-classic-tag-secondary-2 post-classic-tag" href="#">'.$value->attributes->ubicacion.'</a></li>
