@@ -10,6 +10,13 @@
           //echo $obj->data->attributes->imagen->data->attributes->formats->thumbnail->url;
 
           echo '
+          <meta property="og:url"           content="eventos-detalle.php?id='.$idbiog.'" />
+          <meta property="og:type"          content="Sitio Web" />
+          <meta property="og:title"         content="'.$obj->data->attributes->titulo.'" />
+          <meta property="og:description"   content="'.$obj->data->attributes->descripcion.'" />
+          <meta property="og:image"         content="'.$url.$obj->data->attributes->imagen->data->attributes->url.'" />
+
+
           <section class="section section-lg bg-default">
           <div class="container">
             <div class="row row-50 justify-content-lg-between">
@@ -28,10 +35,8 @@
               <div class="col-12">
                 <div class="blog-post-share text-lg-right">
                   <ul class="list-inline">
-                    <li class="thin-title">COMPARTIR</li>
-                    
+                    <li class="thin-title">COMPARTIR</li>          
                     <div class="fb-share-button" data-href="http://178.62.220.4/eventos-detalle.php?id='.$idbiog.'" data-layout="button_count">
-
                   </ul>
                 </div>
               </div>
