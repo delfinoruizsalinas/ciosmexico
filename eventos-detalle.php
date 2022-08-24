@@ -1,6 +1,18 @@
 <!DOCTYPE html>
 <html class="wide wow-animation" lang="en">
   <head>
+  <meta property="og:url"           content="eventos-detalle.php?id=1" />
+        <meta property="og:type"          content="Sitio Web" />
+        <meta property="og:title"         content="Cisco Live 2022" />
+        <meta property="og:description"   content="<strong>What is Cisco Live?</strong>
+        <br><br>
+        Cisco Live delivers education and inspiration to technology innovators worldwide through large-scale in-person and digital events, as well as on-demand education. It is the premier destination for Cisco customers and partners to gain knowledge and to build community.
+        <br><br>
+        As the place where the best and the brightest minds in IT come to learn, Cisco Live will ignite creativity, deliver practical know-how, and accelerate the connections that fuel your digital future.
+        " />
+        <meta property="og:image" content="http://178.62.220.4:1337/uploads/cisco_live_2016_img001_84d7ca1d05.jpg" />
+
+        
     <title>Cios Mexicanos - Eventos</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
@@ -24,16 +36,6 @@
         }
     }
     </style>
-        <meta property="og:url"           content="eventos-detalle.php?id=1" />
-        <meta property="og:type"          content="Sitio Web" />
-        <meta property="og:title"         content="Cisco Live 2022" />
-        <meta property="og:description"   content="<strong>What is Cisco Live?</strong>
-        <br><br>
-        Cisco Live delivers education and inspiration to technology innovators worldwide through large-scale in-person and digital events, as well as on-demand education. It is the premier destination for Cisco customers and partners to gain knowledge and to build community.
-        <br><br>
-        As the place where the best and the brightest minds in IT come to learn, Cisco Live will ignite creativity, deliver practical know-how, and accelerate the connections that fuel your digital future.
-        " />
-        <meta property="og:image"         content="http://178.62.220.4:1337/uploads/cisco_live_2016_img001_84d7ca1d05.jpg" />
 
   </head>
   <body>
