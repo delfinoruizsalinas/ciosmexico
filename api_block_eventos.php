@@ -1,6 +1,6 @@
 <section class="section section-lg bg-default">
     <div class="container">
-        <h3 class="title-decorate title-decorate-center text-center">Nuevos eventos</h3>
+        <h3 class="title-decorate title-decorate-center text-center">Eventos Presenciales</h3>
         <div class="row">
         <div class="col-12">
             <div class="owl-carousel" data-items="1" data-md-items="2" data-lg-items="3" data-dots="true" data-nav="false" data-stage-padding="15" data-loop="false" data-margin="30" data-mouse-drag="false">
@@ -21,9 +21,9 @@
                         //comite-ejecutivo-biografia.php?id='.$value->id.'
                         echo '<div class="wow slideInUp">
                                 <div class="post-classic">
-                                <div class="post-classic-figure"><a href="eventos-presenciales-detalle.php?id='.$value->id.'"><img src="'.$url.'" alt="" width="370" height="255"/></a></div>
+                                <div class="post-classic-figure"><a href="eventos-detalle.php?id='.$value->id.'"><img src="'.$url.'" alt="" width="370" height="255"/></a></div>
                                 <div class="post-classic-caption">
-                                    <h4 class="post-classic-title"><a href="eventos-presenciales-detalle.php?id='.$value->id.'">'.$value->attributes->titulo.'</a></h4>
+                                    <h4 class="post-classic-title"><a href="eventos-detalle.php?id='.$value->id.'">'.$value->attributes->titulo.'</a></h4>
                                     <ul class="post-classic-meta">
                                     <li>'.$value->attributes->fecha.'</li>
                                     <li><a class="post-classic-tag-secondary-2 post-classic-tag" href="#">'.$value->attributes->ubicacion.'</a></li>

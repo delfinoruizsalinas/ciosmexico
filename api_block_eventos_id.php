@@ -9,7 +9,8 @@
           $url = 'http://178.62.220.4:1337';
           //echo $obj->data->attributes->imagen->data->attributes->formats->thumbnail->url;
 
-          echo '<section class="section section-lg bg-default">
+          echo '
+          <section class="section section-lg bg-default">
           <div class="container">
             <div class="row row-50 justify-content-lg-between">
               <div class="col-lg-6">
@@ -28,10 +29,9 @@
                 <div class="blog-post-share text-lg-right">
                   <ul class="list-inline">
                     <li class="thin-title">COMPARTIR</li>
-                    <li><a class="icon icon-sm fa-facebook" href="#"></a></li>
-                    <li><a class="icon icon-sm fa-instagram" href="#"></a></li>
-                    <li><a class="icon icon-sm fa-twitter" href="#"></a></li>
-                    <li><a class="icon icon-sm fa-youtube-play" href="#"></a></li>
+                    
+                    <div class="fb-share-button" data-href="http://178.62.220.4/eventos-detalle.php?id='.$idbiog.'" data-layout="button_count">
+
                   </ul>
                 </div>
               </div>

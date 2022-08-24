@@ -8,18 +8,18 @@
          
           $resumen = "";
           $ld = "";
+          $tw = "";
           foreach($value->attributes->imagen as $item){
-
                   $url = 'http://178.62.220.4:1337'.$item->attributes->url;
           }
           $ld = $value->attributes->linkdn;
+          $tw = $value->attributes->twt;
           echo '<div class="col-md-6 col-lg-4 wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
             <div class="team-modern">
                 <div class="team-modern-figure"><img src="'.$url.'" alt="" width="375" height="290">
                 <ul class="team-modern-soc-list">
                     <li><a class="icon icon-sm fa-linkedin" href="'.$ld.'" target="_blank"></a></li>
-                    <li><a class="icon icon-sm fa-youtube-play" href="https://www.youtube.com/c/CIOsMexicanosLATAMTV" target="_blank"></a></li>
-                    <li><a class="icon icon-sm fa-twitter" href="https://twitter.com/CIOsMexOficial" target="_blank"></a></li>
+                    <li><a class="icon icon-sm fa-twitter" href="'.$tw.'" target="_blank"></a></li>
                 </ul>
                 </div>
                 <div class="team-modern-caption">

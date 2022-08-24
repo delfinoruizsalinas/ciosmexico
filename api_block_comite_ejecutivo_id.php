@@ -21,8 +21,7 @@
                       <li class="d-sm-block">
                       <ul class="social-list">
                           <li><a class="icon icon-sm fa-linkedin" href="'.$obj->data->attributes->linkdn.'" target="_blank"></a></li>
-                          <li><a class="icon icon-sm fa-youtube-play" href="https://www.youtube.com/c/CIOsMexicanosLATAMTV" target="_blank"></a></li>
-                          <li><a class="icon icon-sm fa-twitter" href="https://twitter.com/CIOsMexOficial" target="_blank"></a></li>
+                          <li><a class="icon icon-sm fa-twitter" href="'.$obj->data->attributes->twt.'" target="_blank"></a></li>
                       </ul>
                       </li>
                   </ul>

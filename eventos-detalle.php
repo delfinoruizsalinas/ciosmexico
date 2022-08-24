@@ -23,11 +23,25 @@
             padding-left: 0px;
         }
     }
-
-
     </style>
+    <meta property="og:url"           content="https://www.your-domain.com/your-page.html" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="Your Website Title" />
+    <meta property="og:description"   content="Your description" />
+    <meta property="og:image"         content="https://www.your-domain.com/path/image.jpg" />
+
   </head>
   <body>
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+    fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
     <div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/cios/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
     <div class="preloader">
       <div class="preloader-body">
@@ -47,7 +61,7 @@
               <div class="col-12 col-lg-9">
                 <h2 class="breadcrumbs-custom-title">Acerca de</h2>
                 <ul class="breadcrumbs-custom-path">
-                  <li><a href="comite-ejecutivo.php">Eventos Presenciales</a></li>
+                  <li><a href="eventos.php">Eventos</a></li>
                   <li class="active">ACERCA DE</li>
                 </ul>
               </div>
@@ -56,9 +70,9 @@
         </div>
       </section>
       <section class="section section-lg bg-gray-1">
-        <div class="container">          
+        <div class="container"> 
           <?php
-            include('api_block_eventos_presenciales_id.php');
+            include('api_block_eventos_id.php');
           ?>  
         </div>
       </section>     
@@ -76,4 +90,5 @@
     <script src="js/core.min.js"></script>
     <script src="js/script.js"></script>
   </body>
+    
 </html>
