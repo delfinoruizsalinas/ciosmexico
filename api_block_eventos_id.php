@@ -9,15 +9,7 @@
           $url = 'http://178.62.220.4:1337';
           //echo $obj->data->attributes->imagen->data->attributes->formats->thumbnail->url;
 
-          echo '
-          <meta property="og:url"           content="eventos-detalle.php?id='.$idbiog.'" />
-          <meta property="og:type"          content="Sitio Web" />
-          <meta property="og:title"         content="'.$obj->data->attributes->titulo.'" />
-          <meta property="og:description"   content="'.$obj->data->attributes->descripcion.'" />
-          <meta property="og:image"         content="'.$url.$obj->data->attributes->imagen->data->attributes->url.'" />
-
-
-          <section class="section section-lg bg-default">
+          echo '<section class="section section-lg bg-default">
           <div class="container">
             <div class="row row-50 justify-content-lg-between">
               <div class="col-lg-6">
