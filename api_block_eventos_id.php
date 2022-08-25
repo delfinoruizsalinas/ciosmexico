@@ -28,11 +28,12 @@
                 <div class="blog-post-share text-lg-right">
                   <ul class="list-inline">
                     <li class="thin-title">COMPARTIR</li>          
-                    <div class="fb-share-button" data-href="http://178.62.220.4/eventos-detalle.php?id='.$idbiog.'" data-layout="button_count">
+                    <div class="fb-share-button" data-href="http://178.62.220.4/eventos-detalle.php?id='.$idbiog.'&evento=presencial" data-layout="button_count">
                   </ul>
                 </div>
               </div>
             </div>
           </div>
         </section>';
+
 ?>

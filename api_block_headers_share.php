@@ -10,10 +10,10 @@
         // In the case of this input, do key and array lookups to get the values
 
         //echo $obj->data->attributes->imagen->data->attributes->formats->thumbnail->url;
-        echo '<meta property="og:url"     content="eventos-detalle.php?id='.$idbiog.'" />
-        <meta property="og:type"          content="Sitio Web" />
-        <meta property="og:title"         content="'.$obj->data->attributes->titulo.'" />
-        <meta property="og:image"         content="'.$url.$obj->data->attributes->imagen->data->attributes->url.'" />';
+        echo '<meta property="og:url" content="eventos-detalle.php?id='.$idbiog.'" />
+        <meta property="og:type" content="Sitio Web" />
+        <meta property="og:title" content="'.$obj->data->attributes->titulo.'" />
+        <meta property="og:image" content="'.$url.$obj->data->attributes->imagen->data->attributes->url.'" />';
     }
                                                                                 
       
