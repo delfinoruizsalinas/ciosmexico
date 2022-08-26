@@ -58,15 +58,16 @@
                 </li>
 
                 <li class="rd-nav-item"><a class="rd-nav-link" href="#">Multimedia</a>
-                    <ul class="rd-menu rd-navbar-dropdown">
+                     <!--<ul class="rd-menu rd-navbar-dropdown">
                         <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="#">Galería</a>
                         </li>
                         <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="#">Videos</a>
                         </li>
                     </ul>
+                    -->
                 </li>
                 
-                <li class="rd-nav-item"><a class="rd-nav-link" href="#">Noticias</a>
+                <li class="rd-nav-item"><a class="rd-nav-link" href="noticias.php">Noticias</a>
                     <!--    <ul class="rd-menu rd-navbar-dropdown">
                         <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="#">Cios premiados</a>
                         </li>

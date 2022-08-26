@@ -21,7 +21,13 @@
           flex-direction: row-reverse !important;
         }
     }
-
+    .icono_evento{
+          bottom: 20px;
+          width: 60px;
+          left: 20px;
+          position: absolute;
+          transition: .5s ease;
+        }
     </style>
   </head>
   <body>

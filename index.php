@@ -35,7 +35,7 @@
                   <p class="text-accent-2">CIO's</p>
                   <div class="box-location">
                     <h4>Mexicanos & Latam</h4>
-                    <h5 class="text-secondary">17-08-2022</h5>
+                    <h5 class="text-secondary"><?php echo date('Y-m-d'); ?></h5>
                   </div>
                 </div>
               </div>

@@ -15,7 +15,18 @@
         <meta property="og:title" content="'.$obj->data->attributes->titulo.'" />
         <meta property="og:image" content="'.$url.$obj->data->attributes->imagen->data->attributes->url.'" />';
     }
-                                                                                
+    if($evento == "noticia"){  //url api eventos-presenciales
+        //url api eventos-virtuales                                                                           
+        $json = file_get_contents($url.'/api/events/'.$idbiog.'?populate=imagen');
+        // Decode the JSON string into an object
+        $obj = json_decode($json);
+        //foreach($value->attributes->imagen as $item){
+         
+        echo '<meta property="og:url" content="eventos-detalle.php?id='.$idbiog.'&evento=noticia" />
+        <meta property="og:type" content="Sitio Web" />
+        <meta property="og:title" content="'.$obj->data->attributes->titulo.'" />
+        <meta property="og:image" content="'.$url.$obj->data->attributes->imagen->data[0]->attributes->formats->small->url.'" />';
+      }                                                                        
       
 
 ?>
