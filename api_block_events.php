@@ -1,7 +1,6 @@
 <?php 
 $url_site = 'http://178.62.220.4:1337';
 $itm = 3;
-$itm2 = 6;
 ?>
 
 <!-- NOTICIAS-->
@@ -18,7 +17,7 @@ $itm2 = 6;
         $obj = json_decode($json);
         // In the case of this input, do key and array lookups to get the values
         foreach ($obj->data as $key => $value) {
-          if($key<$itm2){
+          if($key<$itm){
             foreach($value->attributes->imagen as $item){
               $url = $url_site.$item[0]->attributes->formats->small->url;
               //print_r($url_site.$item[0]->attributes->formats->small->url);
