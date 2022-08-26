@@ -22,7 +22,7 @@
         $obj = json_decode($json);
         //foreach($value->attributes->imagen as $item){
          
-        echo '<meta property="og:url" content="eventos-detalle.php?id='.$idbiog.'&evento=noticia" />
+        echo '<meta property="og:url" content="noticias-detalle.php?id='.$idbiog.'&evento=noticia" />
         <meta property="og:type" content="Sitio Web" />
         <meta property="og:title" content="'.$obj->data->attributes->titulo.'" />
         <meta property="og:image" content="'.$url.$obj->data->attributes->imagen->data[0]->attributes->formats->small->url.'" />';

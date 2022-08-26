@@ -7,7 +7,7 @@ $itm2 = 6;
 <!-- NOTICIAS-->
 <section class="section-lg bg-default">
   <div class="container wow-outer">
-    <h3 class="text-center wow slideInDown">Noticias</h3>
+    <h3 class="text-center wow slideInDown"><a href="noticias.php">Noticias</a></h3>
     <!-- Owl Carousel-->
     <div class="owl-carousel owl-dots-dark wow fadeInUp" data-items="1" data-md-items="2" data-lg-items="3" data-dots="true" data-nav="false" data-stage-padding="15" data-loop="false" data-margin="30" data-mouse-drag="false">
     <?php 
