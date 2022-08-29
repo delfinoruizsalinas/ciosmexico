@@ -26,9 +26,9 @@ $itm = 3;
             echo '
               <div class="post-corporate post-corporate-img-bg" style="height: 360.76px;">
                 <div class="post-corporate-bg" style="background-image: url('.$url.'); background-size: cover;"></div><a class="badge post-corporate-badge" href="#"></a>
-                <h4 class="post-corporate-title"><a href="eventos-detalle.php?id='.$value->id.'&evento=noticia">'.$value->attributes->titulo.'</a></h4>
+                <h4 class="post-corporate-title"><a href="noticias-detalle.php?id='.$value->id.'&evento=noticia">'.$value->attributes->titulo.'</a></h4>
                 <div class="post-corporate-text">
-                </div><a class="post-corporate-link" href="eventos-detalle.php?id='.$value->id.'&evento=noticia">Leer mas<span class="icon linearicons-arrow-right"></span></a>
+                </div><a class="post-corporate-link" href="noticias-detalle.php?id='.$value->id.'&evento=noticia">Leer mas<span class="icon linearicons-arrow-right"></span></a>
               </div>
             ';
           }
