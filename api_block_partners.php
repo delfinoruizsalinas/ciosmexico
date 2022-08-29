@@ -1,19 +1,13 @@
-<section class="section section-lg bg-default text-center">
+<section class="section-lg bg-gray-600 text-center">
     <div class="container">
         <div class="wow-outer">
         <div class="wow slideInDown">
-            <h3 class="title-decorate title-decorate-center">Algunos de Nuestros Partners</h3>
+            <h3>Algunos de Nuestros Partners</h3>
         </div>
         </div>
-        <div class="row row-30">
-        <div class="col-12 wow-outer">
-            <div class="wow slideInDown">
-            <h5 class="gradient-title text-gradient-2"></h5>
-            </div>
-        </div>
-        <?php
-
-            
+        <!-- Owl Carousel-->
+        <div class="owl-carousel owl-dots-secondary dots-offset-lg" data-items="1" data-sm-items="2" data-dots-each="2" data-lg-items="4" data-dots="true" data-nav="false" data-stage-padding="0" data-loop="false" data-margin="30" data-mouse-drag="false">
+        <?php      
             $curl = curl_init(); //Initializes curl
             curl_setopt($curl, CURLOPT_URL, 'http://178.62.220.4:1337/api/partners?populate=imagen');
             curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
@@ -27,8 +21,6 @@
             $obj = json_decode($res);
             //print_r($res);
 
-
-            
             foreach ($obj->data as $key => $value) {
 
                 $url ="";
@@ -48,11 +40,14 @@
                             $url = 'http://178.62.220.4:1337'.$item->attributes->formats->thumbnail->url;                               
                         }
                 }       
-                echo '<div class="col-sm-6 col-lg-3"><a class="box-sponsor wow fadeInUp" target="_blank" href="'.$link.'" data-wow-delay="1.'.$i.'s"><img src="'.$url.'" alt="" width="120" height="119"/></a></div>';
-            }
-              
+                echo '<a class="box-sponsor box-sponsor-modern wow-outer" href="'.$link.'" target="_blank">            
+                        <div class="wow fadeInUp">
+                            <img src="'.$url.'" alt="" width="270" height="121"/>
+                        </div>
+                    </a>';
+            } 
         ?>
-
-    </div>
+        </div>
     </div>
 </section>
+
