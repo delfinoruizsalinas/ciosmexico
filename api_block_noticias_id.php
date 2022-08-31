@@ -1,7 +1,7 @@
 <?php 
     $idbiog = $_GET["id"];
     $evento = $_GET["evento"];
-    $url = '//ciosmexicanos.com:1337';
+    $url = 'https://ciosmexicanos.com:1337';
 
     if($evento == "noticia"){  //url api eventos-presenciales
       //url api eventos-virtuales                                                                           
@@ -30,7 +30,7 @@
               <div class="blog-post-share text-lg-right">
                 <ul class="list-inline">
                   <li class="thin-title">COMPARTIR</li>          
-                  <div class="fb-share-button" data-href="//ciosmexicanos.com/noticias-detalle.php?id='.$idbiog.'&evento=noticia" data-layout="button_count">
+                  <div class="fb-share-button" data-href="https://ciosmexicanos.com/noticias-detalle.php?id='.$idbiog.'&evento=noticia" data-layout="button_count">
                 </ul>
               </div>
             </div>
