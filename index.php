@@ -81,7 +81,7 @@
                     <div class="box-icon-inner decorate-triangle"><span class="icon-xl linearicons-mustache-glasses icon-gradient-1"></span></div>
                     <div class="box-icon-caption">
                       <h4><a href="#">Hablemos</a></h4>
-                      <p>¿Eres CIO, CTO, CSO y te interesa sumarte a nuestra comunidad ?
+                      <p>¿Eres CIO, CTO, CSO, CDO y te interesa sumarte a nuestra comunidad ?
 Escríbenos y en breve nos pondremos en contacto contigo.</p>
                     </div>
                   </div>
