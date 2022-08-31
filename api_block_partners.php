@@ -1,4 +1,4 @@
-<section class="section-lg bg-gray-600 text-center">
+<section class="section-lg text-center">
     <div class="container">
         <div class="wow-outer">
         <div class="wow slideInDown">
