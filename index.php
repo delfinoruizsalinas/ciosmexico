@@ -56,11 +56,11 @@
             <div class="col-lg-6">
               <div class="box-img-animate"> 
                 <div class="box-img-animate-item" data-parallax-scroll="{&quot;y&quot;: 0, &quot;x&quot;: 140,  &quot;smoothness&quot;: 50 }"><img src="images/cios/01.png" alt=""></div>
-                <div class="box-img-animate-item" data-parallax-scroll="{&quot;y&quot;: 150, &quot;x&quot;: 0,  &quot;smoothness&quot;: 50 }"><img src="images/cios/02.png" alt=""></div>
+                <div class="box-img-animate-item" data-parallax-scroll="{&quot;y&quot;: 150, &quot;x&quot;: 0,  &quot;smoothness&quot;: 50 }"><img src="images/cios/09.png" alt=""></div>
                 <div class="box-img-animate-item" data-parallax-scroll="{&quot;y&quot;:70, &quot;x&quot;: -150,  &quot;smoothness&quot;: 50 }"><img src="images/cios/03.png" alt=""></div>
                 <div class="box-img-animate-item" data-parallax-scroll="{&quot;y&quot;:20, &quot;x&quot;: 0,  &quot;smoothness&quot;: 50 }"><img src="images/cios/04.png" alt=""></div>
                 <div class="box-img-animate-item" data-parallax-scroll="{&quot;y&quot;:60, &quot;x&quot;: 70,  &quot;smoothness&quot;: 50 }"><img src="images/cios/05.png" alt=""></div>
-                <div class="box-img-animate-item" data-parallax-scroll="{&quot;y&quot;:0, &quot;x&quot;: 140,  &quot;smoothness&quot;: 50 }"><img src="images/cios/06.png" alt=""></div>
+                <div class="box-img-animate-item" data-parallax-scroll="{&quot;y&quot;:0, &quot;x&quot;: 140,  &quot;smoothness&quot;: 50 }"><img src="images/cios/08.png" alt=""></div>
               </div>
             </div>
             <div class="col-lg-6 col-xl-5">
@@ -71,7 +71,7 @@
                 <div class="col-md-6 col-lg-12">
                   <div class="box-icon-modern">
                     <div class="box-icon-inner decorate-triangle"></div>
-                    <h4><mark>Algunos de Nuevos miembros</mark></h4>
+                    <h4><mark>Algunos de nuestros miembros</mark></h4>
                   </div>
                 </div>
               </div>
@@ -81,7 +81,7 @@
                     <div class="box-icon-inner decorate-triangle"><span class="icon-xl linearicons-mustache-glasses icon-gradient-1"></span></div>
                     <div class="box-icon-caption">
                       <h4><a href="#">Hablemos</a></h4>
-                      <p>¿Eres CIO (Chief Information Officer) y te interesa sumarte a nuestra comunidad ?
+                      <p>¿Eres CIO, CTO, CSO y te interesa sumarte a nuestra comunidad ?
 Escríbenos y en breve nos pondremos en contacto contigo.</p>
                     </div>
                   </div>
