@@ -67,8 +67,8 @@
                     -->
                 </li>
                 
-                <li class="rd-nav-item"><a class="rd-nav-link" href="noticias.php">Noticias</a>
-                    <!--    <ul class="rd-menu rd-navbar-dropdown">
+                 <!-- <li class="rd-nav-item"><a class="rd-nav-link" href="noticias.php">Noticias</a>
+                      <ul class="rd-menu rd-navbar-dropdown">
                         <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="#">Cios premiados</a>
                         </li>
                         <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="#">Nuevos miembros</a>
@@ -76,8 +76,8 @@
                         <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="#">Noticias del día</a>
                         </li>                        
                     </ul>
-                    -->                    
-                </li>
+                                        
+                </li>-->
             </ul>
             </div>
         </div>
