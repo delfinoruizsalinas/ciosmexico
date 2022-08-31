@@ -1,6 +1,6 @@
 <?php 
       //url api eventos-virtuales                                                                           
-      $json = file_get_contents('http://178.62.220.4:1337/api/biografias?populate=imagen');
+      $json = file_get_contents('http://localhost:1337/api/biografias?populate=imagen');
       // Decode the JSON string into an object
       $obj = json_decode($json);
       // In the case of this input, do key and array lookups to get the values
@@ -10,7 +10,7 @@
           $ld = "";
           $tw = "";
           foreach($value->attributes->imagen as $item){
-                  $url = 'http://178.62.220.4:1337'.$item->attributes->url;
+                  $url = 'http://localhost:1337'.$item->attributes->url;
           }
           $ld = $value->attributes->linkdn;
           $tw = $value->attributes->twt;

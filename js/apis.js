@@ -1,5 +1,5 @@
 
-ip_api ='http://178.62.220.4:1337';
+ip_api ='http://localhost:1337';
 link = "";
 url = "";
 fecha = "";
