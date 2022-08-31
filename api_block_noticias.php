@@ -1,5 +1,5 @@
 <?php 
-$url_site = 'http://ciosmexicanos.com:1337';
+$url_site = 'http://localhost:1337';
 ?>
 
 <!-- NOTICIAS-->

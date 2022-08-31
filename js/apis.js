@@ -1,5 +1,5 @@
 
-ip_api ='http://ciosmexicanos.com:1337';
+ip_api ='http://localhost:1337';
 link = "";
 url = "";
 fecha = "";

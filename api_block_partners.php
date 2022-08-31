@@ -9,7 +9,7 @@
         <div class="owl-carousel owl-dots-secondary dots-offset-lg" data-items="1" data-sm-items="2" data-dots-each="2" data-lg-items="4" data-dots="true" data-nav="false" data-stage-padding="0" data-loop="false" data-margin="30" data-mouse-drag="false">
         <?php      
             $curl = curl_init(); //Initializes curl
-            curl_setopt($curl, CURLOPT_URL, 'http://ciosmexicanos.com:1337/api/partners?populate=imagen');
+            curl_setopt($curl, CURLOPT_URL, 'http://localhost:1337/api/partners?populate=imagen');
             curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
             curl_setopt($curl, CURLOPT_HTTPHEADER, [
                 'Content-Type: application/json'
@@ -35,9 +35,9 @@
                 foreach($value->attributes->imagen as $item){
 
                         if(empty($item->attributes->formats->thumbnail)){
-                            $url = 'http://ciosmexicanos.com:1337'.$item->attributes->url;
+                            $url = 'http://localhost:1337'.$item->attributes->url;
                         }else{
-                            $url = 'http://ciosmexicanos.com:1337'.$item->attributes->formats->thumbnail->url;                               
+                            $url = 'http://localhost:1337'.$item->attributes->formats->thumbnail->url;                               
                         }
                 }       
                 echo '<a class="box-sponsor box-sponsor-modern wow-outer" href="'.$link.'" target="_blank">            
