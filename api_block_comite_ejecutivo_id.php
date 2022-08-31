@@ -1,11 +1,11 @@
 <?php 
     $idbiog = $_GET["id"];
       //url api eventos-virtuales                                                                           
-      $json = file_get_contents('https://ciosmexicanos.com:1337/api/biografias/'.$idbiog.'?populate=imagen');
+      $json = file_get_contents('http://ciosmexicanos.com:1337/api/biografias/'.$idbiog.'?populate=imagen');
       // Decode the JSON string into an object
       $obj = json_decode($json);
       // In the case of this input, do key and array lookups to get the values
-          $url = 'https://ciosmexicanos.com:1337';
+          $url = 'http://ciosmexicanos.com:1337';
           //echo $obj->data->attributes->imagen->data->attributes->formats->thumbnail->url;
 
           echo '<section class="section section-lg bg-default">

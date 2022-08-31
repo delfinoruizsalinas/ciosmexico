@@ -1,5 +1,5 @@
 <?php 
-$url_site = 'https://ciosmexicanos.com:1337';
+$url_site = 'http://ciosmexicanos.com:1337';
 $itm = 3;
 ?>
 
