@@ -1,7 +1,7 @@
 <?php 
     $idbiog = $_GET["id"];
     $evento = $_GET["evento"];
-    $url = 'http://188.166.16.108:1337';
+    $url = '//ciosmexicanos.com:1337';
 
     if($evento == "presencial"){  //url api eventos-presenciales
         $json = file_get_contents($url.'/api/evento-presencials/'.$idbiog.'?populate=imagen');

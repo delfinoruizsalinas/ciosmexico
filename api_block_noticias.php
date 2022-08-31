@@ -1,5 +1,5 @@
 <?php 
-$url_site = 'http://188.166.16.108:1337';
+$url_site = '//ciosmexicanos.com:1337';
 ?>
 
 <!-- NOTICIAS-->
