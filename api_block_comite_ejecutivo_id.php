@@ -1,11 +1,11 @@
 <?php 
     $idbiog = $_GET["id"];
       //url api eventos-virtuales                                                                           
-      $json = file_get_contents('http://178.62.220.4:1337/api/biografias/'.$idbiog.'?populate=imagen');
+      $json = file_get_contents('http://188.166.16.108:1337/api/biografias/'.$idbiog.'?populate=imagen');
       // Decode the JSON string into an object
       $obj = json_decode($json);
       // In the case of this input, do key and array lookups to get the values
-          $url = 'http://178.62.220.4:1337';
+          $url = 'http://188.166.16.108:1337';
           //echo $obj->data->attributes->imagen->data->attributes->formats->thumbnail->url;
 
           echo '<section class="section section-lg bg-default">
@@ -39,7 +39,7 @@
               </div>
               <div class="col-lg-6">
                   <div class="block-decorate-img">
-                  <div class="block-decorate-inner"><img src="'.$url.$obj->data->attributes->imagen->data->attributes->url.'" alt="" width="440" height="462"/>
+                  <div class="block-decorate-inner"><img src="'.$obj->data->attributes->imagen->data->attributes->url.'" alt="" width="440" height="462"/>
                   </div>
                   </div>
               </div>

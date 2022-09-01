@@ -1,42 +1,9 @@
 <?php 
-$url_site = 'http://178.62.220.4:1337';
+//188.166.16.108
+$url_site = 'http://188.166.16.108:1337';
 $itm = 3;
 ?>
 
-<!-- NOTICIAS-->
-<section class="section-lg bg-default">
-  <div class="container wow-outer">
-    <h3 class="text-center wow slideInDown"><a href="noticias.php">Noticias</a></h3>
-    <!-- Owl Carousel-->
-    <div class="owl-carousel owl-dots-dark wow fadeInUp" data-items="1" data-md-items="2" data-lg-items="3" data-dots="true" data-nav="false" data-stage-padding="15" data-loop="false" data-margin="30" data-mouse-drag="false">
-    <?php 
-        //url api eventos-virtuales                                                                           
-        $json = file_get_contents($url_site.'/api/events?populate=imagen');
-        //echo $url_site.'/api/events?populate=imagen';
-        // Decode the JSON string into an object
-        $obj = json_decode($json);
-        // In the case of this input, do key and array lookups to get the values
-        foreach ($obj->data as $key => $value) {
-          if($key<$itm){
-            foreach($value->attributes->imagen as $item){
-              $url = $url_site.$item[0]->attributes->formats->small->url;
-              //print_r($url_site.$item[0]->attributes->formats->small->url);
-            }
-            //comite-ejecutivo-biografia.php?id='.$value->id.'
-            echo '
-              <div class="post-corporate post-corporate-img-bg" style="height: 360.76px;">
-                <div class="post-corporate-bg" style="background-image: url('.$url.'); background-size: cover;"></div><a class="badge post-corporate-badge" href="#"></a>
-                <h4 class="post-corporate-title"><a href="noticias-detalle.php?id='.$value->id.'&evento=noticia">'.$value->attributes->titulo.'</a></h4>
-                <div class="post-corporate-text">
-                </div><a class="post-corporate-link" href="noticias-detalle.php?id='.$value->id.'&evento=noticia">Leer mas<span class="icon linearicons-arrow-right"></span></a>
-              </div>
-            ';
-          }
-        }        
-    ?>
-    </div>
-  </div>
-</section>
 
 <!-- EVENTOS PRESENCIALES-->
 <section class="section section-lg bg-default">
@@ -57,7 +24,7 @@ $itm = 3;
                           
                           foreach($value->attributes->imagen as $item){
 
-                                  $url = $url_site.$item->attributes->url;
+                                  $url = $item->attributes->url;
                           }
                         
                           //comite-ejecutivo-biografia.php?id='.$value->id.'
@@ -140,9 +107,9 @@ $itm = 3;
           foreach($value->attributes->imagen as $item){
 
                   if(empty($item->attributes->formats->small)){
-                      $url = $url_site.$item->attributes->url;
+                      $url = $item->attributes->url;
                   }else{
-                      $url = $url_site.$item->attributes->formats->small->url;                               
+                      $url = $item->attributes->formats->small->url;                               
                   }
           }       
           echo '<div class="col-md-6 col-lg-4"><div class="post-modern"><div class="post-modern-figure"><a href="'.$youtube.'" target="_blank"><img src="'.$url.'" alt="" width="370" height="255"></a></div><div class="post-modern-caption"><p class="post-modern-date">'.$fecha.' '.$hora.'</p><h4 class="post-modern-title"><a href="'.$youtube.'" target="_blank">'.$titulo.'</a></h4></div></div></div>';
@@ -213,9 +180,9 @@ $itm = 3;
           foreach($value->attributes->imagen as $item){
 
                   if(empty($item->attributes->formats->small)){
-                      $url = $url_site.$item->attributes->url;
+                      $url = $item->attributes->url;
                   }else{
-                      $url = $url_site.$item->attributes->formats->small->url;                               
+                      $url = $item->attributes->formats->small->url;                               
                   }
           }      
           echo '<div class="col-md-6 col-lg-4">
@@ -296,9 +263,9 @@ $itm = 3;
           foreach($value->attributes->imagen as $item){
 
                   if(empty($item->attributes->formats->small)){
-                      $url = $url_site.$item->attributes->url;
+                      $url = $item->attributes->url;
                   }else{
-                      $url = $url_site.$item->attributes->formats->small->url;                               
+                      $url = $item->attributes->formats->small->url;                               
                   }
           }       
           echo '<div class="col-md-6 col-lg-4"><div class="post-modern"><div class="post-modern-figure"><a href="'.$youtube.'" target="_blank"><img src="'.$url.'" alt="" width="370" height="255"></a></div><div class="post-modern-caption"><p class="post-modern-date">'.$fecha.' '.$hora.'</p><h4 class="post-modern-title"><a href="'.$youtube.'" target="_blank">'.$titulo.'</a></h4></div></div></div>';

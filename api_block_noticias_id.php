@@ -1,7 +1,7 @@
 <?php 
     $idbiog = $_GET["id"];
     $evento = $_GET["evento"];
-    $url = 'http://178.62.220.4:1337';
+    $url = 'http://188.166.16.108:1337';
 
     if($evento == "noticia"){  //url api eventos-presenciales
       //url api eventos-virtuales                                                                           
@@ -9,7 +9,7 @@
       // Decode the JSON string into an object
       $obj = json_decode($json);
       //foreach($value->attributes->imagen as $item){
-       $url = $url.$obj->data->attributes->imagen->data[0]->attributes->formats->small->url;
+       $url = $obj->data->attributes->imagen->data[0]->attributes->formats->small->url;
       //  echo $url;
       //}
 
@@ -30,7 +30,7 @@
               <div class="blog-post-share text-lg-right">
                 <ul class="list-inline">
                   <li class="thin-title">COMPARTIR</li>          
-                  <div class="fb-share-button" data-href="http://178.62.220.4/noticias-detalle.php?id='.$idbiog.'&evento=noticia" data-layout="button_count">
+                  <div class="fb-share-button" data-href="http://188.166.16.108/noticias-detalle.php?id='.$idbiog.'&evento=noticia" data-layout="button_count">
                 </ul>
               </div>
             </div>
