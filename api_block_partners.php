@@ -42,7 +42,7 @@
                 }       
                 echo '<a class="box-sponsor box-sponsor-modern wow-outer" href="'.$link.'" target="_blank">            
                         <div class="wow fadeInUp">
-                            <img src="'.$url.'" alt="" height="121"/>
+                            <img src="'.$url.'" alt="" style="height: 121px;"/>
                         </div>
                     </a>';
             } 
