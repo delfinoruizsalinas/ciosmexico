@@ -24,7 +24,7 @@ $itm = 3;
                           
                           foreach($value->attributes->imagen as $item){
 
-                                  $url = $url_site.$item->attributes->url;
+                                  $url = $item->attributes->url;
                           }
                         
                           //comite-ejecutivo-biografia.php?id='.$value->id.'
@@ -107,9 +107,9 @@ $itm = 3;
           foreach($value->attributes->imagen as $item){
 
                   if(empty($item->attributes->formats->small)){
-                      $url = $url_site.$item->attributes->url;
+                      $url = $item->attributes->url;
                   }else{
-                      $url = $url_site.$item->attributes->formats->small->url;                               
+                      $url = $item->attributes->formats->small->url;                               
                   }
           }       
           echo '<div class="col-md-6 col-lg-4"><div class="post-modern"><div class="post-modern-figure"><a href="'.$youtube.'" target="_blank"><img src="'.$url.'" alt="" width="370" height="255"></a></div><div class="post-modern-caption"><p class="post-modern-date">'.$fecha.' '.$hora.'</p><h4 class="post-modern-title"><a href="'.$youtube.'" target="_blank">'.$titulo.'</a></h4></div></div></div>';
@@ -180,9 +180,9 @@ $itm = 3;
           foreach($value->attributes->imagen as $item){
 
                   if(empty($item->attributes->formats->small)){
-                      $url = $url_site.$item->attributes->url;
+                      $url = $item->attributes->url;
                   }else{
-                      $url = $url_site.$item->attributes->formats->small->url;                               
+                      $url = $item->attributes->formats->small->url;                               
                   }
           }      
           echo '<div class="col-md-6 col-lg-4">
@@ -263,9 +263,9 @@ $itm = 3;
           foreach($value->attributes->imagen as $item){
 
                   if(empty($item->attributes->formats->small)){
-                      $url = $url_site.$item->attributes->url;
+                      $url = $item->attributes->url;
                   }else{
-                      $url = $url_site.$item->attributes->formats->small->url;                               
+                      $url = $item->attributes->formats->small->url;                               
                   }
           }       
           echo '<div class="col-md-6 col-lg-4"><div class="post-modern"><div class="post-modern-figure"><a href="'.$youtube.'" target="_blank"><img src="'.$url.'" alt="" width="370" height="255"></a></div><div class="post-modern-caption"><p class="post-modern-date">'.$fecha.' '.$hora.'</p><h4 class="post-modern-title"><a href="'.$youtube.'" target="_blank">'.$titulo.'</a></h4></div></div></div>';
