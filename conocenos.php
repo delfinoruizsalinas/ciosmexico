@@ -14,7 +14,7 @@
     <style>
       @media (max-width: 400px) {
         #portada {
-            background-image: url(images/cios/portadaConocenos_mobile.jpeg) !important;
+            background-image: url(images/cios/portadaNuevaMovil.png) !important;
             background-attachment: unset;
         }
       }
@@ -33,7 +33,7 @@
       <!-- Page Header-->
       <?php include 'header.php' ?>
       <!-- Swiper-->
-      <section class="parallax-container" id="portada" data-parallax-img="images/cios/portadaConocenos.jpeg">
+      <section class="parallax-container" id="portada" data-parallax-img="images/cios/portadaNueva.png">
         <div class="parallax-content breadcrumbs-custom context-dark"> 
           <div class="container">
             <div class="row justify-content-center">

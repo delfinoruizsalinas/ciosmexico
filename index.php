@@ -80,7 +80,7 @@
                   <div class="box-icon-modern">
                     <div class="box-icon-inner decorate-triangle"><span class="icon-xl linearicons-mustache-glasses icon-gradient-1"></span></div>
                     <div class="box-icon-caption">
-                      <h4><a href="#">Hablemos</a></h4>
+                      <h4><a href="contacto.php">Hablemos</a></h4>
                       <p>¿Eres CIO, CTO, CDO o CISO y te interesa sumarte a nuestra comunidad ?
 Escríbenos y en breve nos pondremos en contacto contigo.</p>
                     </div>
