@@ -10,7 +10,7 @@
           $ld = "";
           $tw = "";
           foreach($value->attributes->imagen as $item){
-                  $url = 'http://188.166.16.108:1337'.$item->attributes->url;
+                  $url = $item->attributes->url;
           }
           $ld = $value->attributes->linkdn;
           $tw = $value->attributes->twt;

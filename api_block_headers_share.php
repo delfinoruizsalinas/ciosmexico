@@ -13,7 +13,7 @@
         echo '<meta property="og:url" content="eventos-detalle.php?id='.$idbiog.'&evento=presencial" />
         <meta property="og:type" content="Cios Mexicanos - Eventos" />
         <meta property="og:title" content="'.$obj->data->attributes->titulo.'" />
-        <meta property="og:image" content="'.$url.$obj->data->attributes->imagen->data->attributes->url.'" />';
+        <meta property="og:image" content="'.$obj->data->attributes->imagen->data->attributes->url.'" />';
     }
     if($evento == "noticia"){  //url api eventos-presenciales
         //url api eventos-virtuales                                                                           
@@ -25,7 +25,7 @@
         echo '<meta property="og:url" content="noticias-detalle.php?id='.$idbiog.'&evento=noticia" />
         <meta property="og:type" content="Cios Mexicanos - Noticias" />
         <meta property="og:title" content="'.$obj->data->attributes->titulo.'" />
-        <meta property="og:image" content="'.$url.$obj->data->attributes->imagen->data[0]->attributes->formats->small->url.'" />';
+        <meta property="og:image" content="'.$obj->data->attributes->imagen->data[0]->attributes->formats->small->url.'" />';
       }                                                                        
       
 

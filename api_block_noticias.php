@@ -18,7 +18,7 @@ $url_site = 'http://188.166.16.108:1337';
         foreach ($obj->data as $key => $value) {
           
             foreach($value->attributes->imagen as $item){
-              $url = $url_site.$item[0]->attributes->formats->small->url;
+              $url = $item[0]->attributes->formats->small->url;
               //print_r($url_site.$item[0]->attributes->formats->small->url);
             }
             //comite-ejecutivo-biografia.php?id='.$value->id.'

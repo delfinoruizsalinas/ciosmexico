@@ -9,7 +9,7 @@
       // Decode the JSON string into an object
       $obj = json_decode($json);
       //foreach($value->attributes->imagen as $item){
-       $url = $url.$obj->data->attributes->imagen->data[0]->attributes->formats->small->url;
+       $url = $obj->data->attributes->imagen->data[0]->attributes->formats->small->url;
       //  echo $url;
       //}
 

@@ -23,7 +23,7 @@
                 <h3 class="blog-post-title">'.$obj->data->attributes->titulo.'</h3>
                 <div class="blog-post-content">'.$obj->data->attributes->descripcion.'</div>
               </div>
-              <div class="col-lg-6 col-xl-5"><img src="'.$url.$obj->data->attributes->imagen->data->attributes->url.'" alt="" width="518" height="569"/>
+              <div class="col-lg-6 col-xl-5"><img src="'.$obj->data->attributes->imagen->data->attributes->url.'" alt="" width="518" height="569"/>
               </div>
             </div>
             <div class="row">

@@ -39,7 +39,7 @@
               </div>
               <div class="col-lg-6">
                   <div class="block-decorate-img">
-                  <div class="block-decorate-inner"><img src="'.$url.$obj->data->attributes->imagen->data->attributes->url.'" alt="" width="440" height="462"/>
+                  <div class="block-decorate-inner"><img src="'.$obj->data->attributes->imagen->data->attributes->url.'" alt="" width="440" height="462"/>
                   </div>
                   </div>
               </div>

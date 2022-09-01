@@ -35,9 +35,9 @@
                 foreach($value->attributes->imagen as $item){
 
                         if(empty($item->attributes->formats->thumbnail)){
-                            $url = 'http://188.166.16.108:1337'.$item->attributes->url;
+                            $url = $item->attributes->url;
                         }else{
-                            $url = 'http://188.166.16.108:1337'.$item->attributes->formats->thumbnail->url;                               
+                            $url = $item->attributes->formats->thumbnail->url;                               
                         }
                 }       
                 echo '<a class="box-sponsor box-sponsor-modern wow-outer" href="'.$link.'" target="_blank">            
