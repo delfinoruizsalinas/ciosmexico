@@ -1543,8 +1543,10 @@
 
 
 		window.onscroll = function() {scrollFunction()};
-
+		$('.rd-navbar-fixed .rd-navbar-panel').css('background-color', 'transparent');
+				
 		function scrollFunction() {
+
 			if ($(window).width() > 820) {  
 
 				if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 145.806) {
@@ -1560,7 +1562,28 @@
 					$('.menu-hamburg').css('background-color', 'transparent');
 				}
 
-			}    
+			}else{
+				
+				$('.html.rd-navbar-fixed-linked .page').css('padding-top','0px');
+
+
+				if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 56) {
+					//$("#fixlogo").css({"top": "50","background": "#fff","width": "100%" ,"position": "fixed","z-index": "100", "border": "1px #ccc solid"});
+					$('#fixlogo').attr('src','images/cios/logo_1.png');
+					$('.menu-hamburg').css('background-color', 'rgb(8, 71, 90)');
+					$('.rd-navbar-fixed-element-1').css('background-color','rgb(8, 71, 90)');
+					$('.rd-navbar-fixed .rd-navbar-panel').css('background-color','#ffffff');
+
+				}else{
+					$('#fixlogo').attr('src','images/cios/logo_footer.png');
+					$('.text-menu a').css('color','#fff');
+					$('.rd-navbar-collapse-toggle').css('background-color', 'rgb(8, 71, 90)');
+					$('.rd-navbar-panel').css('background-color', 'transparent');		
+					$('.menu-hamburg').css('background-color','transparent');	
+					$('.rd-navbar-fixed-element-1').css('background-color','transparent');							
+					
+				}
+			}  
 		}
 
 	});

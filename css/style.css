@@ -6963,7 +6963,7 @@ html.tablet .ui-to-top {
 
 .rd-navbar-fixed .rd-navbar-brand {
 	position: relative;
-	margin-left: 20px;
+	margin-left: 22px;
 	overflow: hidden;
 	white-space: nowrap;
 	text-overflow: ellipsis;
@@ -7416,7 +7416,7 @@ html.tablet .ui-to-top {
 }
 
 html.rd-navbar-fixed-linked .page {
-	padding-top: 56px;
+	padding-top: 0px;
 }
 
 /*
