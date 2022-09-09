@@ -35,7 +35,7 @@
                   <p class="text-accent-2">CIO's</p>
                   <div class="box-location">
                     <h4>Mexicanos & Latam</h4>
-                    <h5 class="text-secondary"><?php echo date('Y-m-d'); ?></h5>
+                    <h5 class="text-secondary" id="date_now"></h5>
                   </div>
                 </div>
               </div>
@@ -144,7 +144,12 @@ Escríbenos y en breve nos pondremos en contacto contigo.</p>
     <div class="snackbars" id="form-output-global"></div>
     <script src="js/core.min.js"></script>
     <script src="js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.2/moment.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.2/locale/es.js"></script>
     <script>
+      moment.locale('es');
+
+      $("#date_now").text(moment(Date.now()).format('LL'));
     </script>
   </body>
 </html>
