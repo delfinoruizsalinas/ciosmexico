@@ -34,7 +34,7 @@ $itm = 3;
                           //comite-ejecutivo-biografia.php?id='.$value->id.'
                           echo '<div class="wow slideInUp">
                                   <div class="post-classic">
-                                  <div class="post-classic-figure"><a href="eventos-detalle.php?id='.$value->id.'&evento=presencial"><img src="'.$url.'" alt="" width="370" height="255"/></a></div>
+                                  <div class="post-classic-figure"><a href="eventos-detalle.php?id='.$value->id.'&evento=presencial"><img src="'.$url.'" style="width: 370px; height: 255px;"/></a></div>
                                   <div class="post-classic-caption">
                                       <h4 class="post-classic-title"><a href="eventos-detalle.php?id='.$value->id.'&evento=presencial">'.$value->attributes->titulo.'</a></h4>
                                       <ul class="post-classic-meta">
