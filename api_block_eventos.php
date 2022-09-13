@@ -180,7 +180,7 @@ $url_site = 'http://188.166.16.108:1337';
           echo '<div class="col-md-6 col-lg-4">
           <div class="wow slideInDown" style="visibility: visible; animation-name: slideInDown;">
             <div class="post-modern post-modern-reverse">
-              <div class="post-modern-figure"><a href="'.$youtube.'" target="_blank"><img src="'.$url.'" alt="" width="370" height="255"></a></div>
+              <div class="post-modern-figure"><a href="'.$youtube.'" target="_blank"><img src="'.$url.'" width="370" height="255"></a></div>
               <div class="post-modern-caption">
                 <p class="post-modern-date"> <span class="icon mdi mdi-calendar"></span> '.$fecha.' <span class="icon mdi mdi-clock"></span> '.$hora.'</p>
                 <h4 class="post-modern-title"><a href="'.$youtube.'" target="_blank">'.$titulo.'</a></h4>
