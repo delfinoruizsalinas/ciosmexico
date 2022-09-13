@@ -24,7 +24,11 @@ $itm = 3;
                           
                           foreach($value->attributes->imagen as $item){
 
-                                  $url = $item->attributes->url;
+                            if(empty($item->attributes->formats->small)){
+                              $url = $item->attributes->url;
+                            }else{
+                                $url = $item->attributes->formats->small->url;                               
+                            }
                           }
                         
                           //comite-ejecutivo-biografia.php?id='.$value->id.'
