@@ -81,15 +81,15 @@ $url_site = 'http://188.166.16.108:1337';
           }
 
           if(empty($value->attributes->fecha)){
-            $fecha = '2022';
+            $fecha = '';
           }else{
-            $fecha = $value->attributes->fecha;                        
+            $fecha = date("d-m-Y", strtotime($value->attributes->fecha));                        
           }
           
           if(empty($value->attributes->hora)){
-            $hora = '00';
+            $hora = '';
           }else{
-            $hora = $value->attributes->hora;                        
+            $hora = substr ($value->attributes->hora, 0, 5);                         
           }
           
           if(empty($value->attributes->titulo)){
@@ -106,7 +106,7 @@ $url_site = 'http://188.166.16.108:1337';
                       $url = $item->attributes->formats->small->url;                               
                   }
           }       
-          echo '<div class="col-md-6 col-lg-4"><div class="post-modern"><div class="post-modern-figure"><a href="'.$youtube.'" target="_blank"><img src="'.$url.'" alt="" width="370" height="255"></a></div><div class="post-modern-caption"><p class="post-modern-date">'.$fecha.' '.$hora.'</p><h4 class="post-modern-title"><a href="'.$youtube.'" target="_blank">'.$titulo.'</a></h4></div></div></div>';
+          echo '<div class="col-md-6 col-lg-4"><div class="post-modern"><div class="post-modern-figure"><a href="'.$youtube.'" target="_blank"><img src="'.$url.'" alt="" width="370" height="255"></a></div><div class="post-modern-caption"><p class="post-modern-date"> <span class="icon mdi mdi-calendar"></span> '.$fecha.' <span class="icon mdi mdi-clock"></span> '.$hora.'</p><h4 class="post-modern-title"><a href="'.$youtube.'" target="_blank">'.$titulo.'</a></h4></div></div></div>';
       }           
     ?>
   </div>
@@ -152,15 +152,15 @@ $url_site = 'http://188.166.16.108:1337';
           }
 
           if(empty($value->attributes->fecha)){
-            $fecha = '2022';
+            $fecha = '';
           }else{
-            $fecha = $value->attributes->fecha;                        
+            $fecha =date("d-m-Y", strtotime($value->attributes->fecha));                        
           }
           
           if(empty($value->attributes->hora)){
-            $hora = '00';
+            $hora = '';
           }else{
-            $hora = $value->attributes->hora;                        
+            $hora = substr ($value->attributes->hora, 0, 5);                         
           }
           
           if(empty($value->attributes->titulo)){
@@ -182,7 +182,7 @@ $url_site = 'http://188.166.16.108:1337';
             <div class="post-modern post-modern-reverse">
               <div class="post-modern-figure"><a href="'.$youtube.'" target="_blank"><img src="'.$url.'" alt="" width="370" height="255"></a></div>
               <div class="post-modern-caption">
-                <p class="post-modern-date">'.$fecha.' '.$hora.'</p>
+                <p class="post-modern-date"> <span class="icon mdi mdi-calendar"></span> '.$fecha.' <span class="icon mdi mdi-clock"></span> '.$hora.'</p>
                 <h4 class="post-modern-title"><a href="'.$youtube.'" target="_blank">'.$titulo.'</a></h4>
               </div>
             </div>
@@ -233,15 +233,15 @@ $url_site = 'http://188.166.16.108:1337';
           }
 
           if(empty($value->attributes->fecha)){
-            $fecha = '2022';
+            $fecha = '';
           }else{
-            $fecha = $value->attributes->fecha;                        
+            $fecha =  date("d-m-Y", strtotime($value->attributes->fecha));                         
           }
           
           if(empty($value->attributes->hora)){
-            $hora = '00';
+            $hora = '';
           }else{
-            $hora = $value->attributes->hora;                        
+            $hora =  substr ($value->attributes->hora, 0, 5);                       
           }
           
           if(empty($value->attributes->titulo)){
@@ -258,7 +258,7 @@ $url_site = 'http://188.166.16.108:1337';
                       $url = $item->attributes->formats->small->url;                               
                   }
           }       
-          echo '<div class="col-md-6 col-lg-4"><div class="post-modern"><div class="post-modern-figure"><a href="'.$youtube.'" target="_blank"><img src="'.$url.'" alt="" width="370" height="255"></a></div><div class="post-modern-caption"><p class="post-modern-date">'.$fecha.' '.$hora.'</p><h4 class="post-modern-title"><a href="'.$youtube.'" target="_blank">'.$titulo.'</a></h4></div></div></div>';
+          echo '<div class="col-md-6 col-lg-4"><div class="post-modern"><div class="post-modern-figure"><a href="'.$youtube.'" target="_blank"><img src="'.$url.'" alt="" width="370" height="255"></a></div><div class="post-modern-caption"><p class="post-modern-date"> <span class="icon mdi mdi-calendar"></span> '.$fecha.' <span class="icon mdi mdi-clock"></span> '.$hora.'</p><h4 class="post-modern-title"><a href="'.$youtube.'" target="_blank">'.$titulo.'</a></h4></div></div></div>';
         }
                 
     ?>
