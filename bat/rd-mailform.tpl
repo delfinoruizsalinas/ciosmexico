@@ -58,10 +58,10 @@
     }
     </style>
   </head>
-  <body id="body-layout" style="background: #406c8d;">
+  <body id="body-layout" style="background: #08475A;">
     <table width="100%" align="center" cellpadding="0" cellspacing="0" border="0">
       <tr>
-        <td align="center" valign="top" style="padding: 0 15px;background: #406c8d;">
+        <td align="center" valign="top" style="padding: 0 15px;background: #08475A;">
           <table align="center" cellpadding="0" cellspacing="0" border="0">
             <tr>
               <td height="15" style="height: 15px; line-height:15px;"></td>
