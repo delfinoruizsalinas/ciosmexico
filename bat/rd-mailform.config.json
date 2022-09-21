@@ -1,5 +1,5 @@
 {
-  "useSmtp": true,
+  "useSmtp": false,
   "host": "mail.apollo.mx",
   "port": 587,
   "username": "druiz@apollo.mx",
