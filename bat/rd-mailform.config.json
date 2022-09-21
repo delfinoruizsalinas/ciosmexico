@@ -2,7 +2,7 @@
   "useSmtp": true,
   "host": "mail.apollo.mx",
   "port": 587,
-  "username": "no-responder@apollo.mx",
-  "password": "No-qa1G5",
-  "recipientEmail": "no-responder@apollo.mx"
+  "username": "druiz@apollo.mx",
+  "password": "Panqu3Panqu3",
+  "recipientEmail": "druiz@apollo.mx"
 }
