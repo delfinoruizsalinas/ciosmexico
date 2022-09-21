@@ -1267,12 +1267,12 @@
 		if (plugins.rdMailForm.length) {
 			var i, j, k,
 					msg = {
-						'MF000': 'Successfully sent!',
-						'MF001': 'Recipients are not set!',
+						'MF000': '¡Enviado exitosamente!',
+						'MF001': 'Las destinatarias no están establecidas!',
 						'MF002': 'Form will not work locally!',
-						'MF003': 'Please, define email field in your form!',
-						'MF004': 'Please, define type of your form!',
-						'MF254': 'Something went wrong with PHPMailer!',
+						'MF003': '¡Por favor, defina el campo de correo electrónico en su formulario!',
+						'MF004': '¡Por favor, defina el tipo de su formulario!',
+						'MF254': '¡Algo salió mal con PHPMailer!',
 						'MF255': 'Aw, snap! Something went wrong.'
 					};
 
