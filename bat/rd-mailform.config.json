@@ -1,8 +1,8 @@
 {
   "useSmtp": true,
-  "host": "mail.apollo.mx",
+  "host": "mail.ciosmexicanos.org",
   "port": 587,
-  "username": "druiz@apollo.mx",
-  "password": "Panqu3Panqu3",
-  "recipientEmail": "druiz@apollo.mx"
+  "username": "contacto@ciosmexicanos.org",
+  "password": "CiosMex@,2022",
+  "recipientEmail": "contacto@ciosmexicanos.org"
 }
