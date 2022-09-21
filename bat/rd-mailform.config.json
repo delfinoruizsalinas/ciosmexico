@@ -1,8 +1,8 @@
 {
-  "useSmtp": false,
-  "host": "stmp.gmail.com",
-  "port": 465,
-  "username": "demo@gmail.com",
-  "password": "demopassword",
-  "recipientEmail": "demo@gmail.com"
+  "useSmtp": true,
+  "host": "mail.apollo.mx",
+  "port": 587,
+  "username": "druiz@apollo.mx",
+  "password": "Panqu3Panqu3",
+  "recipientEmail": "druiz@apollo.mx"
 }
