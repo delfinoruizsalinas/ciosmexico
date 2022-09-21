@@ -1,8 +1,8 @@
 {
   "useSmtp": true,
-  "host": "stmp.gmail.com",
-  "port": 465,
-  "username": "cc908981@gmail.com",
-  "password": "80016EX77",
-  "recipientEmail": "cc908981@gmail.com"
+  "host": "mail.apollo.mx",
+  "port": 587,
+  "username": "no-responder@apollo.mx",
+  "password": "No-qa1G5",
+  "recipientEmail": "no-responder@apollo.mx"
 }

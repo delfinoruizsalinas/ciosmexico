@@ -106,7 +106,7 @@ try {
 
         // Whether to use SMTP authentication
         $mail->SMTPAuth = true;
-        $mail->SMTPSecure = "ssl";
+        $mail->SMTPSecure = "";
 
         // Username to use for SMTP authentication
         $mail->Username = $formConfig['username'];
