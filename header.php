@@ -27,7 +27,9 @@
                     <li class="text-menu"><a class="icon fa-linkedin" href="https://www.linkedin.com/company/cio-s-mexicanos/" target="_blank"></a></li>
                     <li class="text-menu"><a class="icon fa-youtube-play" href="https://www.youtube.com/c/CIOsMexicanosLATAMTV" target="_blank"></a></li>
                     <li class="text-menu"><a class="icon icon-sm fa-twitter" href="https://twitter.com/ciosmexoficial?lang=es" target="_blank"></a></li>
+                    <li class="text-menu"><a class="icon fa-spotify" href="https://open.spotify.com/show/4lPhX5V3hBfH0sdOJjTkQS?si=e77f179810b444e0&nd=1" target="_blank"></a></li>                    
                 </ul>
+
                 </div>
             </div>
             </div>
