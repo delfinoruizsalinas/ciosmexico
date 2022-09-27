@@ -2,6 +2,79 @@
 $url_site = 'http://188.166.16.108:1337';
 ?>
 
+<!-- EVENTOS MASTER CLASS-->
+
+<section class="section section-lg bg-gray-1">
+<div class="container">
+<div class="wow-outer">
+  <div class="wow slideInDown text-center">
+      <h3 class="title-decorate title-decorate-center">CIO’s Master Class</h3>
+    </div>
+  </div>
+  <div class="row row-50">
+    <?php 
+      //url api eventos-virtuales                                                                           
+      $json = file_get_contents($url_site.'/api/master-classes?populate=imagen');
+      // Decode the JSON string into an object
+      $obj = json_decode($json);
+      // In the case of this input, do key and array lookups to get the values
+      foreach ($obj->data as $key => $value) {
+        
+          $url ="";
+          $link = "";
+          $i = $key;
+          $youtube ="";
+          $fecha ="";
+          $hora ="";
+          $titulo ="";
+
+          if(empty($value->attributes->link_pange)){
+              $link = '#';
+          }else{
+              $link = $value->attributes->link_pange;                        
+          }
+
+          if(empty($value->attributes->youtube)){
+            $youtube = '#';
+          }else{
+            $youtube = $value->attributes->youtube;                        
+          }
+
+          if(empty($value->attributes->fecha)){
+            $fecha = '';
+          }else{
+            $fecha =  date("d-m-Y", strtotime($value->attributes->fecha));                         
+          }
+          
+          if(empty($value->attributes->hora)){
+            $hora = '';
+          }else{
+            $hora =  substr ($value->attributes->hora, 0, 5);                       
+          }
+          
+          if(empty($value->attributes->titulo)){
+            $titulo = '#';
+          }else{
+            $titulo = $value->attributes->titulo;                        
+          }          
+          
+          foreach($value->attributes->imagen as $item){
+
+                  if(empty($item->attributes->formats->small)){
+                      $url = $item->attributes->url;
+                  }else{
+                      $url = $item->attributes->formats->small->url;                               
+                  }
+          }       
+          echo '<div class="col-md-6 col-lg-4"><div class="post-modern"><div class="post-modern-figure"><a href="'.$youtube.'" target="_blank"><img src="'.$url.'" alt="" width="370" height="255"></a></div><div class="post-modern-caption"><p class="post-modern-date"> <span class="icon mdi mdi-calendar"></span> '.$fecha.' <span class="icon mdi mdi-clock"></span> '.$hora.'</p><h4 class="post-modern-title"><a href="'.$youtube.'" target="_blank">'.$titulo.'</a></h4></div></div></div>';
+        }
+                
+    ?>
+  </div>
+</div>
+</section>
+
+
 <!-- EVENTOS PRESENCIALES-->
 <section class="section section-lg bg-default">
     <div class="container">
@@ -43,8 +116,8 @@ $url_site = 'http://188.166.16.108:1337';
         </div>
     </div>
 </section>
-<!-- EVENTOS CIOSVLOG-->
 
+<!-- EVENTOS CIOSVLOG-->
 <section class="section section-lg bg-gray-1">
 <div class="container">
 <div class="wow-outer">
