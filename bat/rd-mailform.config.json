@@ -1,8 +1,8 @@
 {
   "useSmtp": true,
-  "host": "mail.ciosmexicanos.org",
+  "host": "mail.ciosmexicanos.com",
   "port": 587,
-  "username": "contacto@ciosmexicanos.org",
-  "password": "CiosMex@,2022",
-  "recipientEmail": "contacto@ciosmexicanos.org"
+  "username": "contacto@ciosmexicanos.com",
+  "password": "Contacto@2022",
+  "recipientEmail": "contacto@ciosmexicanos.com"
 }
