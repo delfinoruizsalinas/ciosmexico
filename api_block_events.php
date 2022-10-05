@@ -11,7 +11,7 @@ $itm = 3;
 <div class="container">
 <div class="wow-outer">
   <div class="wow slideInDown text-center">
-      <h3 class="title-decorate title-decorate-center"><a href="eventos.php">CIO’s Master Class</a></h3>
+      <h3 class="title-decorate title-decorate-center"><a href="cios-master-class.php">CIO’s Master Class</a></h3>
     </div>
   </div>
   <div class="row row-50">
@@ -81,7 +81,7 @@ $itm = 3;
 <!-- EVENTOS PRESENCIALES-->
 <section class="section section-lg bg-default">
     <div class="container">
-        <h3 class="title-decorate title-decorate-center text-center"><a href="eventos.php">CIO’s Presenciales</a></h3>
+        <h3 class="title-decorate title-decorate-center text-center"><a href="cios-presenciales.php">CIO’s Presenciales</a></h3>
         <div class="row">
         <div class="col-12">
             <div class="owl-carousel" data-items="1" data-md-items="2" data-lg-items="3" data-dots="true" data-nav="false" data-stage-padding="15" data-loop="false" data-margin="30" data-mouse-drag="false">
@@ -131,7 +131,7 @@ $itm = 3;
 <div class="container">
 <div class="wow-outer">
   <div class="wow slideInDown text-center">
-      <h3 class="title-decorate title-decorate-center"><a href="eventos.php">CIO’s Vlog</a></h3>
+      <h3 class="title-decorate title-decorate-center"><a href="cios-vlog.php">CIO’s Vlog</a></h3>
     </div>
   </div>
   <div class="row row-50">
@@ -204,7 +204,7 @@ $itm = 3;
 <div class="container">
 <div class="wow-outer">
   <div class="wow slideInDown text-center">
-      <h3 class="title-decorate title-decorate-center"><a href="eventos.php">CIO’s Life</a></h3>
+      <h3 class="title-decorate title-decorate-center"><a href="cios-life.php">CIO’s Life</a></h3>
     </div>
   </div>
   <div class="row row-50">
@@ -287,7 +287,7 @@ $itm = 3;
 <div class="container">
 <div class="wow-outer">
   <div class="wow slideInDown text-center">
-      <h3 class="title-decorate title-decorate-center"><a href="eventos.php">CIO’s Entre Amigos</a></h3>
+      <h3 class="title-decorate title-decorate-center"><a href="cios-entre-amigos.php">CIO’s Entre Amigos</a></h3>
     </div>
   </div>
   <div class="row row-50">
