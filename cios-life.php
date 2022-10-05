@@ -68,7 +68,7 @@ $url_site = 'http://188.166.16.108:1337';
 
 <!-- EVENTOS CIOS LIFES-->
 
-<section class="section section-lg bg-default">
+<section class="section section-lg bg-gray-1">
 <div class="container">
 <div class="wow-outer">
   <div class="wow slideInDown text-center">
