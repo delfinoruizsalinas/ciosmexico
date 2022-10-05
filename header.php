@@ -27,7 +27,9 @@
                     <li class="text-menu"><a class="icon fa-linkedin" href="https://www.linkedin.com/company/cio-s-mexicanos/" target="_blank"></a></li>
                     <li class="text-menu"><a class="icon fa-youtube-play" href="https://www.youtube.com/c/CIOsMexicanosLATAMTV" target="_blank"></a></li>
                     <li class="text-menu"><a class="icon icon-sm fa-twitter" href="https://twitter.com/ciosmexoficial?lang=es" target="_blank"></a></li>
-                    <li class="text-menu"><a class="icon fa-spotify" href="https://open.spotify.com/show/4lPhX5V3hBfH0sdOJjTkQS?si=e77f179810b444e0&nd=1" target="_blank"></a></li>                    
+                    <li class="text-menu"><a class="icon fa-spotify" href="https://open.spotify.com/show/4lPhX5V3hBfH0sdOJjTkQS?si=e77f179810b444e0&nd=1" target="_blank"></a></li>
+                    <li class="text-menu"><a class="icon fa-apple" href="https://podcasts.apple.com/mx/podcast/tecnologiando-con-cios-mexicanos-latam/id1646163844?i=1000580722266" target="_blank"></a></li>                                            
+                            
                 </ul>
 
                 </div>
@@ -44,19 +46,16 @@
                     <li class="rd-dropdown-item active"><a class="rd-dropdown-link" href="#">Home 3</a>
                     </li>
                 </ul>-->
-                
                 </li>
                 
-                <li class="rd-nav-item"><a class="rd-nav-link" href="eventos.php">Eventos</a>
-                    <!--<ul class="rd-menu rd-navbar-dropdown">
-                        <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="eventos.php">Presenciales</a></li>
-                        <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="#">Virtuales</a></li>
-                        
-                        <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="#">Cios live</a></li>
-                        <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="#">Entre amigos</a></li>         
-                    
+                <li class="rd-nav-item"><a class="rd-nav-link" href="#">Eventos</a>
+                    <ul class="rd-menu rd-navbar-dropdown">
+                        <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="cios-master-class.php">CIO’s Master Class</a></li>
+                        <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="cios-presenciales.php">CIO’s Presenciales</a></li>
+                        <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="cios-vlog.php">CIO’s Vlog</a></li>
+                        <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="cios-life.php">CIO’s Life</a></li>   
+                        <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="cios-entre-amigos.php">CIO’s Entre Amigos</a></li>                           
                     </ul>
-                    -->
                 </li>
 
                 <li class="rd-nav-item"><a class="rd-nav-link" href="#">Multimedia</a>
