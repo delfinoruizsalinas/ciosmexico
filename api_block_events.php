@@ -3,7 +3,6 @@
 $url_site = 'http://188.166.16.108:1337';
 $itm = 3;
 ?>
-&sort[5]=fecha%3Adesc
 
 <!-- EVENTOS MASTER CLASS-->
 
