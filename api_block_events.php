@@ -3,7 +3,7 @@
 $url_site = 'http://188.166.16.108:1337';
 $itm = 3;
 ?>
-
+&sort[5]=fecha%3Adesc
 
 <!-- EVENTOS MASTER CLASS-->
 
@@ -17,7 +17,7 @@ $itm = 3;
   <div class="row row-50">
     <?php 
       //url api eventos-virtuales                                                                           
-      $json = file_get_contents($url_site.'/api/master-classes?populate=imagen');
+      $json = file_get_contents($url_site.'/api/master-classes?populate=imagen&sort[2]=fecha%3Adesc');
       // Decode the JSON string into an object
       $obj = json_decode($json);
       // In the case of this input, do key and array lookups to get the values
@@ -88,7 +88,7 @@ $itm = 3;
             
                 <?php 
                     //url api eventos-virtuales                                                                           
-                    $json = file_get_contents($url_site.'/api/evento-presencials?populate=imagen');
+                    $json = file_get_contents($url_site.'/api/evento-presencials?populate=imagen&sort[6]=fecha%3Adesc');
                     // Decode the JSON string into an object
                     $obj = json_decode($json);
                     // In the case of this input, do key and array lookups to get the values
@@ -137,7 +137,7 @@ $itm = 3;
   <div class="row row-50">
     <?php 
       //url api eventos-virtuales                                                                           
-      $json = file_get_contents($url_site.'/api/evento-virtuals?populate=imagen');
+      $json = file_get_contents($url_site.'/api/evento-virtuals?populate=imagen?populate=imagen&sort[5]=fecha%3Adesc');
       // Decode the JSON string into an object
       $obj = json_decode($json);
       // In the case of this input, do key and array lookups to get the values
@@ -210,7 +210,7 @@ $itm = 3;
   <div class="row row-50">
     <?php 
       //url api eventos-virtuales                                                   
-      $json = file_get_contents($url_site.'/api/evento-cio-lives?populate=imagen');
+      $json = file_get_contents($url_site.'/api/evento-cio-lives?populate=imagen&sort[1]=fecha%3Adesc');
       // Decode the JSON string into an object
       $obj = json_decode($json);
       // In the case of this input, do key and array lookups to get the values
@@ -293,7 +293,7 @@ $itm = 3;
   <div class="row row-50">
     <?php 
       //url api eventos-virtuales                                                                           
-      $json = file_get_contents($url_site.'/api/entre-amigos?populate=imagen');
+      $json = file_get_contents($url_site.'/api/entre-amigos?populate=imagen&sort[2]=fecha%3Adesc');
       // Decode the JSON string into an object
       $obj = json_decode($json);
       // In the case of this input, do key and array lookups to get the values
