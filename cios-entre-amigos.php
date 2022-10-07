@@ -79,7 +79,7 @@ $url_site = 'http://188.166.16.108:1337';
   <div class="row row-50">
     <?php 
       //url api eventos-virtuales                                                                           
-      $json = file_get_contents($url_site.'/api/entre-amigos?populate=imagen');
+      $json = file_get_contents($url_site.'/api/entre-amigos?populate=imagen&sort[2]=fecha%3Adesc');
       // Decode the JSON string into an object
       $obj = json_decode($json);
       // In the case of this input, do key and array lookups to get the values
