@@ -53,8 +53,8 @@
                         <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="cios-vlog.php">CIO’s Vlog</a></li>    
                         <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="cios-presenciales.php">Eventos Presenciales</a></li>
                         <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="cios-life.php">CIO’s Life</a></li>                   
+                        <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="cios-entre-amigos.php">Programa “Entre Amigos”</a></li>
                         <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="cios-mesa-de-debate.php">Mesa de Debate</a></li>                                   
-                        <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="cios-entre-amigos.php">Programa “Entre Amigos”</a></li>                           
                         <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="cios-master-class.php">CIO’s Master Class</a></li>
                     </ul>
                 </li>
