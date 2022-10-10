@@ -48,10 +48,10 @@
           <div class="container">
             <div class="row justify-content-center">
               <div class="col-12 col-lg-9">
-                <h2 class="breadcrumbs-custom-title">CIO’s Presenciales</h2>
+                <h2 class="breadcrumbs-custom-title">Eventos Presenciales</h2>
                 <ul class="breadcrumbs-custom-path">
                   <li><a href="index.php">Inicio</a></li>
-                  <li class="active">CIO’s Presenciales</li>
+                  <li class="active">Eventos Presenciales</li>
                 </ul>
               </div>
             </div>

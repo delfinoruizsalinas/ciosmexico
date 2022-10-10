@@ -5,7 +5,7 @@ $url_site = 'http://188.166.16.108:1337';
 <!DOCTYPE html>
 <html class="wide wow-animation" lang="en">
   <head>
-    <title>Cios Mexicanos - CIO’s Entre Amigos</title>
+    <title>Cios Mexicanos - CIO’s Master Class</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -52,10 +52,10 @@ $url_site = 'http://188.166.16.108:1337';
           <div class="container">
             <div class="row justify-content-center">
               <div class="col-12 col-lg-9">
-                <h2 class="breadcrumbs-custom-title">Programa “Entre Amigos”</h2>
+                <h2 class="breadcrumbs-custom-title">Mesa de debate</h2>
                 <ul class="breadcrumbs-custom-path">
                   <li><a href="index.php">Inicio</a></li>
-                  <li class="active">Programa “Entre Amigos”</li>
+                  <li class="active">Mesa de debate</li>
                 </ul>
               </div>
             </div>
@@ -64,22 +64,19 @@ $url_site = 'http://188.166.16.108:1337';
       </section>
       <!-- api eventos master class -->   
 
-
-
-
-<!-- EVENTOS ENTRE AMIGOS-->
+<!-- EVENTOS MASTER CLASS-->
 
 <section class="section section-lg bg-gray-1">
 <div class="container">
 <div class="wow-outer">
   <div class="wow slideInDown text-center">
-      <!--<h3 class="title-decorate title-decorate-center">CIO’s Entre Amigos</h3>-->
+      <!-- <h3 class="title-decorate title-decorate-center">CIO’s Master Class</h3>-->
     </div>
   </div>
   <div class="row row-50">
     <?php 
       //url api eventos-virtuales                                                                           
-      $json = file_get_contents($url_site.'/api/entre-amigos?populate=imagen&sort[2]=fecha%3Adesc');
+      $json = file_get_contents($url_site.'/api/mesa-de-debates?populate=imagen&sort[2]=fecha%3Adesc');
       // Decode the JSON string into an object
       $obj = json_decode($json);
       // In the case of this input, do key and array lookups to get the values

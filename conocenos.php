@@ -81,7 +81,7 @@
       <section class="section section-lg bg-default">
         <div class="container">
           <div class="row row-50">
-            <div class="col-lg-6 pr-xl-5"><img src="images/image-2-conocenos.jpeg" alt="" width="518" height="430"/>
+            <div class="col-lg-6 pr-xl-5"><img src="images/image-3-conocenos.jpeg" alt="" width="518" height="430"/>
             </div>
             <div class="col-lg-6">
               <div class="text-with-divider">

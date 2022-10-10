@@ -60,7 +60,7 @@
               <div class="col-12 col-lg-9">
                 <h2 class="breadcrumbs-custom-title">Acerca de</h2>
                 <ul class="breadcrumbs-custom-path">
-                  <li><a href="cios-presenciales.php">CIO’s Presenciales</a></li>
+                  <li><a href="cios-presenciales.php">Eventos Presenciales</a></li>
                   <li class="active">ACERCA DE</li>
                 </ul>
               </div>
