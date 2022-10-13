@@ -99,7 +99,9 @@
 
     <script>
       (function(){
-      var url = "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/tecnologia/portada";
+      //var url = "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/tecnologia/portada";
+      var url = "https://expansion.mx/rss/tecnologia";
+      
       var xhr = createCORSRequest("GET","https://api.rss2json.com/v1/api.json?rss_url="+url);
       if (!xhr) {
         throw new Error('CORS not supported');
@@ -126,7 +128,7 @@
           
           console.log(url_image);
           
-          dv.innerHTML = '<div class="wow fadeInUp"><div class="post-modern"><div class="post-modern-caption"><p class="post-modern-date">' + date.toDateString().substr(4) + '</p><h4 class="post-modern-title" style="color:rgb(8, 71, 90);"><a href="' + entry[i].link + '" target="_blank">' + entry[i].title.substring(0,44)  + '...</h4><img src="'+url_image+'" alt="" width="370" height="255" /></a><div class="post-modern-text"><p>' + entry[i].content.substring(0,394) + '...</p></div></div></div></div>';
+          dv.innerHTML = '<div class="wow fadeInUp"><div class="post-modern"><div class="post-modern-caption"><p class="post-modern-date">' + date.toDateString().substr(4) + '</p><h4 class="post-modern-title" style="color:rgb(8, 71, 90);"><a href="' + entry[i].link + '" target="_blank">' + entry[i].title  + '...</h4><img src="'+url_image+'" alt="" width="370" height="255" /></a><div class="post-modern-text"><p>' + entry[i].content.substring(0,294) + '...</p></div></div></div></div>';
           
           //dv.innerHTML = '<a href="' + entry[i].link + '" target="_blank">' + entry[i].title + '</a><br/>' + date.toDateString().substr(4) + '<br/><div class="article">' + entry[i].content.substring(0,600) + '...</div>';
           //dv.innerHTML += '<hr/>';
