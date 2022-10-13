@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="wide wow-animation" lang="en">
   <head>
-    <title>Cios Mexicanos - Comite Ejecutivo</title>
+    <title>Cios Mexicanos - CIO’s Noticias</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,6 +28,15 @@
           position: absolute;
           transition: .5s ease;
         }
+
+        .post-modern-caption {
+    padding: 25px;
+    background: #ffffff;
+    height: 650px;
+        }
+        a[href*='tel'], a[href*='mailto'] {
+    white-space: normal;
+}
     </style>
   </head>
   <body>
@@ -58,12 +67,22 @@
           </div>
         </div>
       </section>
-      <!-- api eventos presenciales -->   
+      <!-- api eventos master class -->   
 
-      <?php
-        include('api_block_noticias.php');
-      ?>
-      
+
+
+
+<!-- EVENTOS ENTRE AMIGOS-->
+
+
+      <section class="section section-lg bg-gray-600">
+        <div class="container">
+          <div  id="feed" class="row row-50">
+          
+          </div>
+        </div>
+      </section>
+
       <!-- api partners -->   
 
       <?php
@@ -77,5 +96,58 @@
     <div class="snackbars" id="form-output-global"></div>
     <script src="js/core.min.js"></script>
     <script src="js/script.js"></script>
-  </body>
+
+    <script>
+      (function(){
+      var url = "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/tecnologia/portada";
+      var xhr = createCORSRequest("GET","https://api.rss2json.com/v1/api.json?rss_url="+url);
+      if (!xhr) {
+        throw new Error('CORS not supported');
+      } else {
+        xhr.send();
+      }
+      xhr.onreadystatechange = function() {
+        if (xhr.readyState==4 && xhr.status==200) {
+        var responseText = xhr.responseText; 
+        var result = JSON.parse(responseText);
+        var container = document.getElementById("feed"), entry = result.items, date;
+        for(var i = 0; i < entry.length; i++){
+          dv = document.createElement("div");
+          dv.className = "col-md-6 col-lg-4 wow-outer";
+          date = new Date(entry[i].pubDate);
+          // entry[i].enclosure.link
+          //console.log(entry[i]);
+          var url_image ="";
+          if(entry[i].thumbnail ==""){
+            url_image = entry[i].enclosure.link;
+          }else{
+            url_image = entry[i].thumbnail;
+          }
+          
+          console.log(url_image);
+          
+          dv.innerHTML = '<div class="wow fadeInUp"><div class="post-modern"><div class="post-modern-caption"><p class="post-modern-date">' + date.toDateString().substr(4) + '</p><h4 class="post-modern-title" style="color:rgb(8, 71, 90);"><a href="' + entry[i].link + '" target="_blank">' + entry[i].title.substring(0,44)  + '...</h4><img src="'+url_image+'" alt="" width="370" height="255" /></a><div class="post-modern-text"><p>' + entry[i].content.substring(0,394) + '...</p></div></div></div></div>';
+          
+          //dv.innerHTML = '<a href="' + entry[i].link + '" target="_blank">' + entry[i].title + '</a><br/>' + date.toDateString().substr(4) + '<br/><div class="article">' + entry[i].content.substring(0,600) + '...</div>';
+          //dv.innerHTML += '<hr/>';
+          container.appendChild(dv);
+        }
+        }
+      }
+      })();
+      function createCORSRequest(method, url) {
+          var xhr = new XMLHttpRequest();
+          if ("withCredentials" in xhr) {
+              xhr.open(method, url, true);
+          } else if (typeof XDomainRequest != "undefined") {
+              xhr = new XDomainRequest();
+              xhr.open(method, url);
+          } else {
+              xhr = null;
+          }
+          return xhr;
+      }
+    </script>
+
+</body>
 </html>
