@@ -15,6 +15,7 @@
             </div>
             <div class="block-right">
             <ul class="list-inline nav-list">
+            <li class="list-inline-item text-menu"><a href="noticias.php">Noticias</a></li>
                 <li class="list-inline-item text-menu"><a href="conocenos.php">Conocenos</a></li>
                 <li class="list-inline-item text-menu"><a href="comite-ejecutivo.php">Comité ejecutivo</a></li>
                 <li class="list-inline-item text-menu"><a href="contacto.php">Contacto</a></li>
