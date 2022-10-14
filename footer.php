@@ -6,6 +6,7 @@
         </div>
         <div class="col-12">
         <ul class="footer-minimal-nav">
+            <li><a href="noticias.php">Noticias</a></li>
             <li><a href="conocenos.php">Conocenos</a></li>
             <li><a href="comite-ejecutivo.php">Comite ejecutivo</a></li>
             <li><a href="contacto.php">Contacto </a></li>
