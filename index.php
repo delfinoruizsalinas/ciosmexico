@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="wide wow-animation" lang="en">
   <head>
-    <title>Cios Mexicanos - Inicio</title>
+    <title>CIO's Latam - Inicio</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -34,7 +34,7 @@
                 <div class="bunner-content-modern text-center">
                   <p class="text-accent-2">CIO's</p>
                   <div class="box-location">
-                    <h4>Mexicanos & Latam</h4>
+                    <h4>Latam</h4>
                     <h5 class="text-secondary" id="date_now"></h5>
                   </div>
                 </div>
@@ -103,7 +103,7 @@ Escríbenos y en breve nos pondremos en contacto contigo.</p>
             <div class="col-sm-6 col-lg-3">
               <article class="counter-classic">
                 <div class="counter-classic-main">
-                  <p>+</p><div class="counter">270</div>
+                  <p>+</p><div class="counter">280</div>
                 </div>
                 <p class="counter-classic-title">Miembros activos conforman nuestra asociación</p>
               </article>
