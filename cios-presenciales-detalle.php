@@ -5,7 +5,17 @@
       include('api_block_headers_share.php');
     ?>  
     
-    <title>Cios Mexicanos - CIO’s Presenciales</title>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5YSQ82VP1J"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-5YSQ82VP1J');
+    </script>    
+    <title>CIO's Latam - Presenciales detalle</title>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
