@@ -112,7 +112,15 @@ Escríbenos y en breve nos pondremos en contacto contigo.</p>
             <div class="col-sm-6 col-lg-3">
               <article class="counter-classic">
                 <div class="counter-classic-main">
-                  <p>+</p><div class="counter">290</div>
+                  <p>+</p><div class="counter">
+                    <?php 
+                      //url api eventos-virtuales                                                                           
+                      $json = file_get_contents($url_site.'/api/miembros-actives/1');
+                      // Decode the JSON string into an object
+                      $obj = json_decode($json);
+                      echo $obj->data->attributes->numero;       
+                    ?>
+                  </div>
                 </div>
                 <p class="counter-classic-title">Miembros activos conforman nuestra asociación</p>
               </article>
