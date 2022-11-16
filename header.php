@@ -60,14 +60,13 @@
                     </ul>
                 </li>
 
-                <li class="rd-nav-item"><a class="rd-nav-link" href="#">Multimedia</a>
-                     <!--<ul class="rd-menu rd-navbar-dropdown">
-                        <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="#">Galería</a>
-                        </li>
-                        <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="#">Videos</a>
-                        </li>
-                    </ul>
-                    -->
+                <li class="rd-nav-item"><a class="rd-nav-link" href="noticias.php">Noticias</a>
+                </li>
+                <li class="rd-nav-item"><a class="rd-nav-link" href="conocenos.php">Conocenos</a>
+                </li>                
+                <li class="rd-nav-item"><a class="rd-nav-link" href="comite-ejecutivo.php">Comite ejecutivo</a>
+                </li>                
+                <li class="rd-nav-item"><a class="rd-nav-link" href="contacto.php">Contacto</a>
                 </li>
                 
                  <!-- <li class="rd-nav-item"><a class="rd-nav-link" href="noticias.php">Noticias</a>
