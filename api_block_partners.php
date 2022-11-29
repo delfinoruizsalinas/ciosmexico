@@ -6,7 +6,7 @@
         </div>
         </div>
         <!-- Owl Carousel-->
-        <div class="owl-carousel owl-dots-secondary dots-offset-lg" data-items="3" data-autoplay="true" data-dots="true" data-nav="false" data-stage-padding="10" data-loop="true" data-margin="10">
+        <div class="owl-carousel owl-dots-secondary dots-offset-lg">
         <?php      
             $curl = curl_init(); //Initializes curl
             curl_setopt($curl, CURLOPT_URL, 'http://188.166.16.108:1337/api/partners?populate=imagen');
