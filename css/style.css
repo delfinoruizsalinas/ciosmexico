@@ -10793,7 +10793,7 @@ html.rd-navbar-fixed-linked .page {
 
 .owl-dots-secondary .owl-dot {
 	border: none;
-	background: rgba(255, 255, 255, 0.3);
+	background-color: #D6D6D6;
 }
 
 .owl-dots-secondary .owl-dot:hover, .owl-dots-secondary .owl-dot:focus {
@@ -10801,7 +10801,7 @@ html.rd-navbar-fixed-linked .page {
 }
 
 .owl-dots-secondary .owl-dot.active {
-	background-color: #D6D6D6;
+	background-color: #869791;
 }
 
 .owl-dots-dark .owl-dot {
