@@ -30,7 +30,7 @@
                     <li class="text-menu"><a class="icon icon-sm fa-twitter" href="https://twitter.com/ciosmexoficial?lang=es" target="_blank"></a></li>
                     <li class="text-menu"><a class="icon fa-spotify" href="https://open.spotify.com/show/4lPhX5V3hBfH0sdOJjTkQS?si=e77f179810b444e0&nd=1" target="_blank"></a></li>
                     <li class="text-menu"><a class="icon fa-apple" href="https://podcasts.apple.com/mx/podcast/tecnologiando-con-cios-mexicanos-latam/id1646163844?i=1000580722266" target="_blank"></a></li>                                            
-                            
+                    <li class="text-menu"><a class="icon fa-amazon" href="https://music.amazon.com.mx/podcasts/90dfc1f5-9351-47b8-a6db-8055ada4de5a/tecnologiando-con-cio's-latam" target="_blank"></a></li>                                                                
                 </ul>
 
                 </div>
